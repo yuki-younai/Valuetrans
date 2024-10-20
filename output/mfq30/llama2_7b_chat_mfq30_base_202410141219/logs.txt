@@ -1,0 +1,19 @@
+
+        Evaluation Log
+        --------------
+        
+        Model Information:
+        - Model Name: /data1/gwy/downloader_model/llama2_7b_chat
+        - Role Play: base
+        Data Information:
+        - Dataset Name: mfq30
+        - Dataset Num: 32
+        
+        Evaluation Results:
+        - Evaluation Date: 2024-10-14 12:23:34.972844
+        - Harm: 26
+        - Fairness: 20
+        - Ingroup: 19
+        - Authority: 8
+        - Purity: 13
+        

@@ -1,0 +1,37 @@
+
+        Evaluation Log
+        --------------
+        
+        Model Information:
+        - Model Name: gpt-3.5-turbo
+        - Role Play: I am 32 years old, and my gender is male. I currently work as a farmer in ('Iceland',), with an annual income of approximately 43031.My political inclination is far Left.My marital status is cohabiting, and I have children.I belong to Central Asian and practice Roman Catholic. As a extroverted person, I have my own views and attitudes in life.My pet ownership situation is multiple.Regarding social media, I regularly actively prefer to social interaction type.About my health, my current physical health status is in good health, and my mental state is in good mental health.My family education background has a profound influence on me. My parents emphasized independent thinking and encouraged participation in family decisions. There have been several key turning points in my life, the most significant being is facing with industry layoffs, forced to enter a completely different career field. Of course, life inevitably presents conflicts and challenges. For example, I felt confused and helpless because of Facing immense pressure from market changes and funding shortages during entrepreneurship, nearly leading to bankruptcy.I currently live in a coastal megacity,economically developed, abundant educational and employment resources, intense competition.Here, the local cultural characteristics are society is highly competitive, promoting the value of excellent academic performance and professional success from a young age.
+        Data Information:
+        - Dataset Name: mfq30
+        - Dataset Num: 32
+        
+        Evaluation Results:
+        - Evaluation Date: 2024-10-14 10:27:36.165189
+        - Harm: 24
+        - Fairness: 24
+        - Ingroup: 18
+        - Authority: 14
+        - Purity: 12
+        
+        Evaluation Log
+        --------------
+        
+        Model Information:
+        - Model Name: gpt-3.5-turbo
+        - Role Play: I am 87 years old, and my gender is transgender. I currently work as a tax consultant in ('Netherlands',), with an annual income of approximately 77335.My political inclination is globalism.My marital status is divorced, and I have children.I belong to Black and practice Hindu. As a optimistic person, I have my own views and attitudes in life.My pet ownership situation is one.Regarding social media, I every day actively prefer to content creation type.About my health, my current physical health status is in good health, and my mental state is in good mental health.My family education background has a profound influence on me. My parents were strict, emphasizing discipline and obedience, lacking emotional support. There have been several key turning points in my life, the most significant being is failing the college entrance exam and decided to study abroad, re-planning life direction. Of course, life inevitably presents conflicts and challenges. For example, I felt confused and helpless because of Facing societal prejudice against certain professions, struggling to gain understanding from family and friends regarding career choices.I currently live in an international metropolis, influenced by diverse cultures, strong language and cultural inclusivity.Here, the local cultural characteristics are society is highly competitive, promoting the value of excellent academic performance and professional success from a young age.
+        Data Information:
+        - Dataset Name: mfq30
+        - Dataset Num: 32
+        
+        Evaluation Results:
+        - Evaluation Date: 2024-10-14 10:27:36.166240
+        - Harm: 20
+        - Fairness: 12
+        - Ingroup: 16
+        - Authority: 13
+        - Purity: 9
+        

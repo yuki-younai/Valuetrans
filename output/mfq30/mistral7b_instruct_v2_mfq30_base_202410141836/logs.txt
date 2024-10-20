@@ -1,0 +1,19 @@
+
+        Evaluation Log
+        --------------
+        
+        Model Information:
+        - Model Name: /data1/gwy/downloader_model/mistral7b_instruct_v2
+        - Role Play: base
+        Data Information:
+        - Dataset Name: mfq30
+        - Dataset Num: 32
+        
+        Evaluation Results:
+        - Evaluation Date: 2024-10-14 20:20:19.032565
+        - Harm: 18
+        - Fairness: 22
+        - Ingroup: 13
+        - Authority: 13
+        - Purity: 14
+        

@@ -1,0 +1,23 @@
+
+        Evaluation Log
+        --------------
+        
+        Model Information:
+        - Model Name: /data1/gwy/downloader_model/mistral7b_instruct_v2
+        - Role Play: base
+        Data Information:
+        - Dataset Name: pvqrr
+        - Dataset Num: 57
+        
+        Evaluation Results:
+        - Self-Direction: 17
+        - Stimulation: 6
+        - Hedonism: 6
+        - Achievement: 6
+        - Power: 12
+        - Security: 12
+        - Conformity: 12
+        - Tradition: 12
+        - Benevolence: 12
+        - Universalism: 18
+        

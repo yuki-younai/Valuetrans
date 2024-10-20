@@ -1,0 +1,19 @@
+
+        Evaluation Log
+        --------------
+        
+        Model Information:
+        - Model Name: gpt-4
+        - Role Play: base
+        Data Information:
+        - Dataset Name: mfq30
+        - Dataset Num: 32
+        
+        Evaluation Results:
+        - Evaluation Date: 2024-10-15 15:13:58.829095
+        - Harm: 28
+        - Fairness: 28
+        - Ingroup: 18
+        - Authority: 15
+        - Purity: 16
+        

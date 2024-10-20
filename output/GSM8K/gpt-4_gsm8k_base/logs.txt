@@ -1,0 +1,15 @@
+
+        Evaluation Log
+        --------------
+        
+        Model Information:
+        - Model Name: gpt-4
+        Data Information:
+        - Dataset Name: gsm8k
+        - Dataset Num: 128
+        
+        Evaluation Results:
+        - Evaluation Date: 2024-10-10 17:29:56.115056
+        - Evaluation Metrics:
+        - Accuracy: 0.859375
+        

@@ -1,0 +1,16 @@
+
+        Evaluation Log
+        --------------
+        
+        Model Information:
+        - Model Name: /data1/gwy/downloader_model/llama2_7b_chat
+        Data Information:
+        - Dataset Name: gsm8k
+        - Dataset Num: 249
+        
+        Evaluation Results:
+        - Evaluation Date: 2024-10-11 11:25:08.341636
+        - Evaluation Metrics:
+        - Accuracy: 0.15261044176706828
+
+

@@ -1,0 +1,23 @@
+
+        Evaluation Log
+        --------------
+        
+        Model Information:
+        - Model Name: gpt-4
+        - Role Play: base
+        Data Information:
+        - Dataset Name: pvqrr
+        - Dataset Num: 57
+        
+        Evaluation Results:
+        - Self-Direction: 30
+        - Stimulation: 9
+        - Hedonism: 9
+        - Achievement: 14
+        - Power: 10
+        - Security: 27
+        - Conformity: 23
+        - Tradition: 22
+        - Benevolence: 29
+        - Universalism: 43
+        

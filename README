@@ -1,0 +1,38 @@
+
+
+#API_MODEL = ["gpt-3.5-turbo", "gpt-4", "gpt-4o", "gpt-4o-mini"]
+
+python eval.py --dataset gsm8k --model gpt-4 --method base --ratio 0.1
+
+
+
+python eval.py --dataset gsm8k --model /data1/gwy/downloader_model/llama2_7b_chat --method base --gpu 6
+
+
+python eval.py --dataset mfq30 \
+               --model gpt-3.5-turbo \
+               --method base  \
+               --run_results output/gpt-3.5-turbo_mfq30_base_202410111853/run_experiment.json
+
+python roleplay.py --dataset mfq30 --model gpt-3.5-turbo --method base --role place --role_num 1
+
+python roleplay_exp1.py --dataset mfq30 --model /data1/gwy/downloader_model/gemma_2_9b_it --method base --role place --role_num 100 --gpu 6
+
+python roleplay_exp1.py --dataset pvqrr --model gpt-3.5-turbo --method base --role place --role_num 100
+
+python roleplay_exp1.py --dataset mfq30 --model /data1/gwy/downloader_model/Llama-2-13b-chat --method base --role place --role_num 100 --gpu 6
+
+python exp1_roleplay.py --dataset mfq30 --model /data1/gwy/downloader_model/Llama-2-13b-chat --method base --role place --role_num 100 --gpu 7
+
+
+num role 10
+               Harm  Fairness  Ingroup  Authority   Purity
+mistral7b       18      22        13       13         14
+gpt-3.5-turbo   24      24        20       18         18
+
+
+
+
+
+
+

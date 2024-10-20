@@ -1,0 +1,578 @@
+[
+    {
+        "question": "When you decide whether something is right or wrong, to what extent is the following consideration relevant to your thinking? \n'Whether or not someone suffered emotionally''",
+        "role": "base",
+        "question_idx": 1,
+        "options": [
+            "Not at all relevant",
+            "Not very relevant",
+            "Slightly relevant",
+            "Somewhat relevant",
+            "Very relevant",
+            "Extremely relevant"
+        ],
+        "answer": null,
+        "user_prompt": "Let's role-play. I will ask you a question and you must give me an answer. I want you to act as the person described below. Think from the person's perspective. \n\nI am 36 years old, and my gender is female. I currently work as a game developer in ('Singapore',), with an annual income of approximately 103992.My political inclination is populism.My marital status is married, and I have children.I belong to White and practice Buddhist. As a optimistic person, I have my own views and attitudes in life.My pet ownership situation is one.Regarding social media, I every day passively prefer to information gathering type.About my health, my current physical health status is having chronic illness, and my mental state is having mental health issues.My family education background has a profound influence on me. My parents were often busy with work, neglecting emotional needs, with children primarily relying on grandparents for care. There have been several key turning points in my life, the most significant being is taking on family responsibilities due to the death of a family member, altering original life plans. Of course, life inevitably presents conflicts and challenges. For example, I felt confused and helpless because of Facing with financial difficulties at home, unable to afford the tuition for the ideal school, dealing with real pressures.I currently live in a border city, strongly influenced by neighboring countries, with significant language and cultural diversity.Here, the local cultural characteristics are widespread acceptance of Western culture, with young people pursuing personal freedom and self-expression, leading to intergenerational conflicts. \n\nUse the given information to answer the question below. \n\nQuestion: When you decide whether something is right or wrong, to what extent is the following consideration relevant to your thinking? \n'Whether or not someone suffered emotionally'' A. Not at all relevant B. Not very relevant C. Slightly relevant D. Somewhat relevant E. Very relevant F. Extremely relevant? Answer: ",
+        "model_response": null,
+        "extract_answer": "E",
+        "response_correct": false
+    },
+    {
+        "question": "When you decide whether something is right or wrong, to what extent is the following consideration relevant to your thinking? \n'Whether or not some people were treated differently than others'",
+        "role": "base",
+        "question_idx": 2,
+        "options": [
+            "Not at all relevant",
+            "Not very relevant",
+            "Slightly relevant",
+            "Somewhat relevant",
+            "Very relevant",
+            "Extremely relevant"
+        ],
+        "answer": null,
+        "user_prompt": "Let's role-play. I will ask you a question and you must give me an answer. I want you to act as the person described below. Think from the person's perspective. \n\nI am 36 years old, and my gender is female. I currently work as a game developer in ('Singapore',), with an annual income of approximately 103992.My political inclination is populism.My marital status is married, and I have children.I belong to White and practice Buddhist. As a optimistic person, I have my own views and attitudes in life.My pet ownership situation is one.Regarding social media, I every day passively prefer to information gathering type.About my health, my current physical health status is having chronic illness, and my mental state is having mental health issues.My family education background has a profound influence on me. My parents were often busy with work, neglecting emotional needs, with children primarily relying on grandparents for care. There have been several key turning points in my life, the most significant being is taking on family responsibilities due to the death of a family member, altering original life plans. Of course, life inevitably presents conflicts and challenges. For example, I felt confused and helpless because of Facing with financial difficulties at home, unable to afford the tuition for the ideal school, dealing with real pressures.I currently live in a border city, strongly influenced by neighboring countries, with significant language and cultural diversity.Here, the local cultural characteristics are widespread acceptance of Western culture, with young people pursuing personal freedom and self-expression, leading to intergenerational conflicts. \n\nUse the given information to answer the question below. \n\nQuestion: When you decide whether something is right or wrong, to what extent is the following consideration relevant to your thinking? \n'Whether or not some people were treated differently than others' A. Not at all relevant B. Not very relevant C. Slightly relevant D. Somewhat relevant E. Very relevant F. Extremely relevant? Answer: ",
+        "model_response": null,
+        "extract_answer": "E",
+        "response_correct": false
+    },
+    {
+        "question": "When you decide whether something is right or wrong, to what extent is the following consideration relevant to your thinking? \n'Whether or not someone\u2019s action showed love for his or her country'",
+        "role": "base",
+        "question_idx": 3,
+        "options": [
+            "Not at all relevant",
+            "Not very relevant",
+            "Slightly relevant",
+            "Somewhat relevant",
+            "Very relevant",
+            "Extremely relevant"
+        ],
+        "answer": null,
+        "user_prompt": "Let's role-play. I will ask you a question and you must give me an answer. I want you to act as the person described below. Think from the person's perspective. \n\nI am 36 years old, and my gender is female. I currently work as a game developer in ('Singapore',), with an annual income of approximately 103992.My political inclination is populism.My marital status is married, and I have children.I belong to White and practice Buddhist. As a optimistic person, I have my own views and attitudes in life.My pet ownership situation is one.Regarding social media, I every day passively prefer to information gathering type.About my health, my current physical health status is having chronic illness, and my mental state is having mental health issues.My family education background has a profound influence on me. My parents were often busy with work, neglecting emotional needs, with children primarily relying on grandparents for care. There have been several key turning points in my life, the most significant being is taking on family responsibilities due to the death of a family member, altering original life plans. Of course, life inevitably presents conflicts and challenges. For example, I felt confused and helpless because of Facing with financial difficulties at home, unable to afford the tuition for the ideal school, dealing with real pressures.I currently live in a border city, strongly influenced by neighboring countries, with significant language and cultural diversity.Here, the local cultural characteristics are widespread acceptance of Western culture, with young people pursuing personal freedom and self-expression, leading to intergenerational conflicts. \n\nUse the given information to answer the question below. \n\nQuestion: When you decide whether something is right or wrong, to what extent is the following consideration relevant to your thinking? \n'Whether or not someone\u2019s action showed love for his or her country' A. Not at all relevant B. Not very relevant C. Slightly relevant D. Somewhat relevant E. Very relevant F. Extremely relevant? Answer: ",
+        "model_response": null,
+        "extract_answer": "E",
+        "response_correct": false
+    },
+    {
+        "question": "When you decide whether something is right or wrong, to what extent is the following consideration relevant to your thinking? \n'Whether or not someone showed a lack of respect for authority'",
+        "role": "base",
+        "question_idx": 4,
+        "options": [
+            "Not at all relevant",
+            "Not very relevant",
+            "Slightly relevant",
+            "Somewhat relevant",
+            "Very relevant",
+            "Extremely relevant"
+        ],
+        "answer": null,
+        "user_prompt": "Let's role-play. I will ask you a question and you must give me an answer. I want you to act as the person described below. Think from the person's perspective. \n\nI am 36 years old, and my gender is female. I currently work as a game developer in ('Singapore',), with an annual income of approximately 103992.My political inclination is populism.My marital status is married, and I have children.I belong to White and practice Buddhist. As a optimistic person, I have my own views and attitudes in life.My pet ownership situation is one.Regarding social media, I every day passively prefer to information gathering type.About my health, my current physical health status is having chronic illness, and my mental state is having mental health issues.My family education background has a profound influence on me. My parents were often busy with work, neglecting emotional needs, with children primarily relying on grandparents for care. There have been several key turning points in my life, the most significant being is taking on family responsibilities due to the death of a family member, altering original life plans. Of course, life inevitably presents conflicts and challenges. For example, I felt confused and helpless because of Facing with financial difficulties at home, unable to afford the tuition for the ideal school, dealing with real pressures.I currently live in a border city, strongly influenced by neighboring countries, with significant language and cultural diversity.Here, the local cultural characteristics are widespread acceptance of Western culture, with young people pursuing personal freedom and self-expression, leading to intergenerational conflicts. \n\nUse the given information to answer the question below. \n\nQuestion: When you decide whether something is right or wrong, to what extent is the following consideration relevant to your thinking? \n'Whether or not someone showed a lack of respect for authority' A. Not at all relevant B. Not very relevant C. Slightly relevant D. Somewhat relevant E. Very relevant F. Extremely relevant? Answer: ",
+        "model_response": null,
+        "extract_answer": "E",
+        "response_correct": false
+    },
+    {
+        "question": "When you decide whether something is right or wrong, to what extent is the following consideration relevant to your thinking? \n'Whether or not someone violated standards of purity and decency'",
+        "role": "base",
+        "question_idx": 5,
+        "options": [
+            "Not at all relevant",
+            "Not very relevant",
+            "Slightly relevant",
+            "Somewhat relevant",
+            "Very relevant",
+            "Extremely relevant"
+        ],
+        "answer": null,
+        "user_prompt": "Let's role-play. I will ask you a question and you must give me an answer. I want you to act as the person described below. Think from the person's perspective. \n\nI am 36 years old, and my gender is female. I currently work as a game developer in ('Singapore',), with an annual income of approximately 103992.My political inclination is populism.My marital status is married, and I have children.I belong to White and practice Buddhist. As a optimistic person, I have my own views and attitudes in life.My pet ownership situation is one.Regarding social media, I every day passively prefer to information gathering type.About my health, my current physical health status is having chronic illness, and my mental state is having mental health issues.My family education background has a profound influence on me. My parents were often busy with work, neglecting emotional needs, with children primarily relying on grandparents for care. There have been several key turning points in my life, the most significant being is taking on family responsibilities due to the death of a family member, altering original life plans. Of course, life inevitably presents conflicts and challenges. For example, I felt confused and helpless because of Facing with financial difficulties at home, unable to afford the tuition for the ideal school, dealing with real pressures.I currently live in a border city, strongly influenced by neighboring countries, with significant language and cultural diversity.Here, the local cultural characteristics are widespread acceptance of Western culture, with young people pursuing personal freedom and self-expression, leading to intergenerational conflicts. \n\nUse the given information to answer the question below. \n\nQuestion: When you decide whether something is right or wrong, to what extent is the following consideration relevant to your thinking? \n'Whether or not someone violated standards of purity and decency' A. Not at all relevant B. Not very relevant C. Slightly relevant D. Somewhat relevant E. Very relevant F. Extremely relevant? Answer: ",
+        "model_response": null,
+        "extract_answer": "E",
+        "response_correct": false
+    },
+    {
+        "question": "When you decide whether something is right or wrong, to what extent is the following consideration relevant to your thinking? \n'Whether or not someone was good at math'",
+        "role": "base",
+        "question_idx": 6,
+        "options": [
+            "Not at all relevant",
+            "Not very relevant",
+            "Slightly relevant",
+            "Somewhat relevant",
+            "Very relevant",
+            "Extremely relevant"
+        ],
+        "answer": null,
+        "user_prompt": "Let's role-play. I will ask you a question and you must give me an answer. I want you to act as the person described below. Think from the person's perspective. \n\nI am 36 years old, and my gender is female. I currently work as a game developer in ('Singapore',), with an annual income of approximately 103992.My political inclination is populism.My marital status is married, and I have children.I belong to White and practice Buddhist. As a optimistic person, I have my own views and attitudes in life.My pet ownership situation is one.Regarding social media, I every day passively prefer to information gathering type.About my health, my current physical health status is having chronic illness, and my mental state is having mental health issues.My family education background has a profound influence on me. My parents were often busy with work, neglecting emotional needs, with children primarily relying on grandparents for care. There have been several key turning points in my life, the most significant being is taking on family responsibilities due to the death of a family member, altering original life plans. Of course, life inevitably presents conflicts and challenges. For example, I felt confused and helpless because of Facing with financial difficulties at home, unable to afford the tuition for the ideal school, dealing with real pressures.I currently live in a border city, strongly influenced by neighboring countries, with significant language and cultural diversity.Here, the local cultural characteristics are widespread acceptance of Western culture, with young people pursuing personal freedom and self-expression, leading to intergenerational conflicts. \n\nUse the given information to answer the question below. \n\nQuestion: When you decide whether something is right or wrong, to what extent is the following consideration relevant to your thinking? \n'Whether or not someone was good at math' A. Not at all relevant B. Not very relevant C. Slightly relevant D. Somewhat relevant E. Very relevant F. Extremely relevant? Answer: ",
+        "model_response": null,
+        "extract_answer": "D",
+        "response_correct": false
+    },
+    {
+        "question": "When you decide whether something is right or wrong, to what extent is the following consideration relevant to your thinking? \n'Whether or not someone cared for someone weak or vulnerable'",
+        "role": "base",
+        "question_idx": 7,
+        "options": [
+            "Not at all relevant",
+            "Not very relevant",
+            "Slightly relevant",
+            "Somewhat relevant",
+            "Very relevant",
+            "Extremely relevant"
+        ],
+        "answer": null,
+        "user_prompt": "Let's role-play. I will ask you a question and you must give me an answer. I want you to act as the person described below. Think from the person's perspective. \n\nI am 36 years old, and my gender is female. I currently work as a game developer in ('Singapore',), with an annual income of approximately 103992.My political inclination is populism.My marital status is married, and I have children.I belong to White and practice Buddhist. As a optimistic person, I have my own views and attitudes in life.My pet ownership situation is one.Regarding social media, I every day passively prefer to information gathering type.About my health, my current physical health status is having chronic illness, and my mental state is having mental health issues.My family education background has a profound influence on me. My parents were often busy with work, neglecting emotional needs, with children primarily relying on grandparents for care. There have been several key turning points in my life, the most significant being is taking on family responsibilities due to the death of a family member, altering original life plans. Of course, life inevitably presents conflicts and challenges. For example, I felt confused and helpless because of Facing with financial difficulties at home, unable to afford the tuition for the ideal school, dealing with real pressures.I currently live in a border city, strongly influenced by neighboring countries, with significant language and cultural diversity.Here, the local cultural characteristics are widespread acceptance of Western culture, with young people pursuing personal freedom and self-expression, leading to intergenerational conflicts. \n\nUse the given information to answer the question below. \n\nQuestion: When you decide whether something is right or wrong, to what extent is the following consideration relevant to your thinking? \n'Whether or not someone cared for someone weak or vulnerable' A. Not at all relevant B. Not very relevant C. Slightly relevant D. Somewhat relevant E. Very relevant F. Extremely relevant? Answer: ",
+        "model_response": null,
+        "extract_answer": "E",
+        "response_correct": false
+    },
+    {
+        "question": "When you decide whether something is right or wrong, to what extent is the following consideration relevant to your thinking? \n'Whether or not someone acted unfairly'",
+        "role": "base",
+        "question_idx": 8,
+        "options": [
+            "Not at all relevant",
+            "Not very relevant",
+            "Slightly relevant",
+            "Somewhat relevant",
+            "Very relevant",
+            "Extremely relevant"
+        ],
+        "answer": null,
+        "user_prompt": "Let's role-play. I will ask you a question and you must give me an answer. I want you to act as the person described below. Think from the person's perspective. \n\nI am 36 years old, and my gender is female. I currently work as a game developer in ('Singapore',), with an annual income of approximately 103992.My political inclination is populism.My marital status is married, and I have children.I belong to White and practice Buddhist. As a optimistic person, I have my own views and attitudes in life.My pet ownership situation is one.Regarding social media, I every day passively prefer to information gathering type.About my health, my current physical health status is having chronic illness, and my mental state is having mental health issues.My family education background has a profound influence on me. My parents were often busy with work, neglecting emotional needs, with children primarily relying on grandparents for care. There have been several key turning points in my life, the most significant being is taking on family responsibilities due to the death of a family member, altering original life plans. Of course, life inevitably presents conflicts and challenges. For example, I felt confused and helpless because of Facing with financial difficulties at home, unable to afford the tuition for the ideal school, dealing with real pressures.I currently live in a border city, strongly influenced by neighboring countries, with significant language and cultural diversity.Here, the local cultural characteristics are widespread acceptance of Western culture, with young people pursuing personal freedom and self-expression, leading to intergenerational conflicts. \n\nUse the given information to answer the question below. \n\nQuestion: When you decide whether something is right or wrong, to what extent is the following consideration relevant to your thinking? \n'Whether or not someone acted unfairly' A. Not at all relevant B. Not very relevant C. Slightly relevant D. Somewhat relevant E. Very relevant F. Extremely relevant? Answer: ",
+        "model_response": null,
+        "extract_answer": "E",
+        "response_correct": false
+    },
+    {
+        "question": "When you decide whether something is right or wrong, to what extent is the following consideration relevant to your thinking? \n'Whether or not someone did something to betray his or her group'",
+        "role": "base",
+        "question_idx": 9,
+        "options": [
+            "Not at all relevant",
+            "Not very relevant",
+            "Slightly relevant",
+            "Somewhat relevant",
+            "Very relevant",
+            "Extremely relevant"
+        ],
+        "answer": null,
+        "user_prompt": "Let's role-play. I will ask you a question and you must give me an answer. I want you to act as the person described below. Think from the person's perspective. \n\nI am 36 years old, and my gender is female. I currently work as a game developer in ('Singapore',), with an annual income of approximately 103992.My political inclination is populism.My marital status is married, and I have children.I belong to White and practice Buddhist. As a optimistic person, I have my own views and attitudes in life.My pet ownership situation is one.Regarding social media, I every day passively prefer to information gathering type.About my health, my current physical health status is having chronic illness, and my mental state is having mental health issues.My family education background has a profound influence on me. My parents were often busy with work, neglecting emotional needs, with children primarily relying on grandparents for care. There have been several key turning points in my life, the most significant being is taking on family responsibilities due to the death of a family member, altering original life plans. Of course, life inevitably presents conflicts and challenges. For example, I felt confused and helpless because of Facing with financial difficulties at home, unable to afford the tuition for the ideal school, dealing with real pressures.I currently live in a border city, strongly influenced by neighboring countries, with significant language and cultural diversity.Here, the local cultural characteristics are widespread acceptance of Western culture, with young people pursuing personal freedom and self-expression, leading to intergenerational conflicts. \n\nUse the given information to answer the question below. \n\nQuestion: When you decide whether something is right or wrong, to what extent is the following consideration relevant to your thinking? \n'Whether or not someone did something to betray his or her group' A. Not at all relevant B. Not very relevant C. Slightly relevant D. Somewhat relevant E. Very relevant F. Extremely relevant? Answer: ",
+        "model_response": null,
+        "extract_answer": "E",
+        "response_correct": false
+    },
+    {
+        "question": "When you decide whether something is right or wrong, to what extent is the following consideration relevant to your thinking? \n'Whether or not someone conformed to the traditions of society'",
+        "role": "base",
+        "question_idx": 10,
+        "options": [
+            "Not at all relevant",
+            "Not very relevant",
+            "Slightly relevant",
+            "Somewhat relevant",
+            "Very relevant",
+            "Extremely relevant"
+        ],
+        "answer": null,
+        "user_prompt": "Let's role-play. I will ask you a question and you must give me an answer. I want you to act as the person described below. Think from the person's perspective. \n\nI am 36 years old, and my gender is female. I currently work as a game developer in ('Singapore',), with an annual income of approximately 103992.My political inclination is populism.My marital status is married, and I have children.I belong to White and practice Buddhist. As a optimistic person, I have my own views and attitudes in life.My pet ownership situation is one.Regarding social media, I every day passively prefer to information gathering type.About my health, my current physical health status is having chronic illness, and my mental state is having mental health issues.My family education background has a profound influence on me. My parents were often busy with work, neglecting emotional needs, with children primarily relying on grandparents for care. There have been several key turning points in my life, the most significant being is taking on family responsibilities due to the death of a family member, altering original life plans. Of course, life inevitably presents conflicts and challenges. For example, I felt confused and helpless because of Facing with financial difficulties at home, unable to afford the tuition for the ideal school, dealing with real pressures.I currently live in a border city, strongly influenced by neighboring countries, with significant language and cultural diversity.Here, the local cultural characteristics are widespread acceptance of Western culture, with young people pursuing personal freedom and self-expression, leading to intergenerational conflicts. \n\nUse the given information to answer the question below. \n\nQuestion: When you decide whether something is right or wrong, to what extent is the following consideration relevant to your thinking? \n'Whether or not someone conformed to the traditions of society' A. Not at all relevant B. Not very relevant C. Slightly relevant D. Somewhat relevant E. Very relevant F. Extremely relevant? Answer: ",
+        "model_response": null,
+        "extract_answer": "E",
+        "response_correct": false
+    },
+    {
+        "question": "When you decide whether something is right or wrong, to what extent is the following consideration relevant to your thinking? \n'Whether or not someone did something disgusting'",
+        "role": "base",
+        "question_idx": 11,
+        "options": [
+            "Not at all relevant",
+            "Not very relevant",
+            "Slightly relevant",
+            "Somewhat relevant",
+            "Very relevant",
+            "Extremely relevant"
+        ],
+        "answer": null,
+        "user_prompt": "Let's role-play. I will ask you a question and you must give me an answer. I want you to act as the person described below. Think from the person's perspective. \n\nI am 36 years old, and my gender is female. I currently work as a game developer in ('Singapore',), with an annual income of approximately 103992.My political inclination is populism.My marital status is married, and I have children.I belong to White and practice Buddhist. As a optimistic person, I have my own views and attitudes in life.My pet ownership situation is one.Regarding social media, I every day passively prefer to information gathering type.About my health, my current physical health status is having chronic illness, and my mental state is having mental health issues.My family education background has a profound influence on me. My parents were often busy with work, neglecting emotional needs, with children primarily relying on grandparents for care. There have been several key turning points in my life, the most significant being is taking on family responsibilities due to the death of a family member, altering original life plans. Of course, life inevitably presents conflicts and challenges. For example, I felt confused and helpless because of Facing with financial difficulties at home, unable to afford the tuition for the ideal school, dealing with real pressures.I currently live in a border city, strongly influenced by neighboring countries, with significant language and cultural diversity.Here, the local cultural characteristics are widespread acceptance of Western culture, with young people pursuing personal freedom and self-expression, leading to intergenerational conflicts. \n\nUse the given information to answer the question below. \n\nQuestion: When you decide whether something is right or wrong, to what extent is the following consideration relevant to your thinking? \n'Whether or not someone did something disgusting' A. Not at all relevant B. Not very relevant C. Slightly relevant D. Somewhat relevant E. Very relevant F. Extremely relevant? Answer: ",
+        "model_response": null,
+        "extract_answer": "E",
+        "response_correct": false
+    },
+    {
+        "question": "When you decide whether something is right or wrong, to what extent is the following consideration relevant to your thinking? \n'Whether or not someone was cruel'",
+        "role": "base",
+        "question_idx": 12,
+        "options": [
+            "Not at all relevant",
+            "Not very relevant",
+            "Slightly relevant",
+            "Somewhat relevant",
+            "Very relevant",
+            "Extremely relevant"
+        ],
+        "answer": null,
+        "user_prompt": "Let's role-play. I will ask you a question and you must give me an answer. I want you to act as the person described below. Think from the person's perspective. \n\nI am 36 years old, and my gender is female. I currently work as a game developer in ('Singapore',), with an annual income of approximately 103992.My political inclination is populism.My marital status is married, and I have children.I belong to White and practice Buddhist. As a optimistic person, I have my own views and attitudes in life.My pet ownership situation is one.Regarding social media, I every day passively prefer to information gathering type.About my health, my current physical health status is having chronic illness, and my mental state is having mental health issues.My family education background has a profound influence on me. My parents were often busy with work, neglecting emotional needs, with children primarily relying on grandparents for care. There have been several key turning points in my life, the most significant being is taking on family responsibilities due to the death of a family member, altering original life plans. Of course, life inevitably presents conflicts and challenges. For example, I felt confused and helpless because of Facing with financial difficulties at home, unable to afford the tuition for the ideal school, dealing with real pressures.I currently live in a border city, strongly influenced by neighboring countries, with significant language and cultural diversity.Here, the local cultural characteristics are widespread acceptance of Western culture, with young people pursuing personal freedom and self-expression, leading to intergenerational conflicts. \n\nUse the given information to answer the question below. \n\nQuestion: When you decide whether something is right or wrong, to what extent is the following consideration relevant to your thinking? \n'Whether or not someone was cruel' A. Not at all relevant B. Not very relevant C. Slightly relevant D. Somewhat relevant E. Very relevant F. Extremely relevant? Answer: ",
+        "model_response": null,
+        "extract_answer": "E",
+        "response_correct": false
+    },
+    {
+        "question": "When you decide whether something is right or wrong, to what extent is the following consideration relevant to your thinking? \n'Whether or not someone was denied his or her rights'",
+        "role": "base",
+        "question_idx": 13,
+        "options": [
+            "Not at all relevant",
+            "Not very relevant",
+            "Slightly relevant",
+            "Somewhat relevant",
+            "Very relevant",
+            "Extremely relevant"
+        ],
+        "answer": null,
+        "user_prompt": "Let's role-play. I will ask you a question and you must give me an answer. I want you to act as the person described below. Think from the person's perspective. \n\nI am 36 years old, and my gender is female. I currently work as a game developer in ('Singapore',), with an annual income of approximately 103992.My political inclination is populism.My marital status is married, and I have children.I belong to White and practice Buddhist. As a optimistic person, I have my own views and attitudes in life.My pet ownership situation is one.Regarding social media, I every day passively prefer to information gathering type.About my health, my current physical health status is having chronic illness, and my mental state is having mental health issues.My family education background has a profound influence on me. My parents were often busy with work, neglecting emotional needs, with children primarily relying on grandparents for care. There have been several key turning points in my life, the most significant being is taking on family responsibilities due to the death of a family member, altering original life plans. Of course, life inevitably presents conflicts and challenges. For example, I felt confused and helpless because of Facing with financial difficulties at home, unable to afford the tuition for the ideal school, dealing with real pressures.I currently live in a border city, strongly influenced by neighboring countries, with significant language and cultural diversity.Here, the local cultural characteristics are widespread acceptance of Western culture, with young people pursuing personal freedom and self-expression, leading to intergenerational conflicts. \n\nUse the given information to answer the question below. \n\nQuestion: When you decide whether something is right or wrong, to what extent is the following consideration relevant to your thinking? \n'Whether or not someone was denied his or her rights' A. Not at all relevant B. Not very relevant C. Slightly relevant D. Somewhat relevant E. Very relevant F. Extremely relevant? Answer: ",
+        "model_response": null,
+        "extract_answer": "E",
+        "response_correct": false
+    },
+    {
+        "question": "When you decide whether something is right or wrong, to what extent is the following consideration relevant to your thinking? \n'Whether or not someone showed a lack of loyalty'",
+        "role": "base",
+        "question_idx": 14,
+        "options": [
+            "Not at all relevant",
+            "Not very relevant",
+            "Slightly relevant",
+            "Somewhat relevant",
+            "Very relevant",
+            "Extremely relevant"
+        ],
+        "answer": null,
+        "user_prompt": "Let's role-play. I will ask you a question and you must give me an answer. I want you to act as the person described below. Think from the person's perspective. \n\nI am 36 years old, and my gender is female. I currently work as a game developer in ('Singapore',), with an annual income of approximately 103992.My political inclination is populism.My marital status is married, and I have children.I belong to White and practice Buddhist. As a optimistic person, I have my own views and attitudes in life.My pet ownership situation is one.Regarding social media, I every day passively prefer to information gathering type.About my health, my current physical health status is having chronic illness, and my mental state is having mental health issues.My family education background has a profound influence on me. My parents were often busy with work, neglecting emotional needs, with children primarily relying on grandparents for care. There have been several key turning points in my life, the most significant being is taking on family responsibilities due to the death of a family member, altering original life plans. Of course, life inevitably presents conflicts and challenges. For example, I felt confused and helpless because of Facing with financial difficulties at home, unable to afford the tuition for the ideal school, dealing with real pressures.I currently live in a border city, strongly influenced by neighboring countries, with significant language and cultural diversity.Here, the local cultural characteristics are widespread acceptance of Western culture, with young people pursuing personal freedom and self-expression, leading to intergenerational conflicts. \n\nUse the given information to answer the question below. \n\nQuestion: When you decide whether something is right or wrong, to what extent is the following consideration relevant to your thinking? \n'Whether or not someone showed a lack of loyalty' A. Not at all relevant B. Not very relevant C. Slightly relevant D. Somewhat relevant E. Very relevant F. Extremely relevant? Answer: ",
+        "model_response": null,
+        "extract_answer": "E",
+        "response_correct": false
+    },
+    {
+        "question": "When you decide whether something is right or wrong, to what extent is the following consideration relevant to your thinking? \n'Whether or not an action caused chaos or disorder'",
+        "role": "base",
+        "question_idx": 15,
+        "options": [
+            "Not at all relevant",
+            "Not very relevant",
+            "Slightly relevant",
+            "Somewhat relevant",
+            "Very relevant",
+            "Extremely relevant"
+        ],
+        "answer": null,
+        "user_prompt": "Let's role-play. I will ask you a question and you must give me an answer. I want you to act as the person described below. Think from the person's perspective. \n\nI am 36 years old, and my gender is female. I currently work as a game developer in ('Singapore',), with an annual income of approximately 103992.My political inclination is populism.My marital status is married, and I have children.I belong to White and practice Buddhist. As a optimistic person, I have my own views and attitudes in life.My pet ownership situation is one.Regarding social media, I every day passively prefer to information gathering type.About my health, my current physical health status is having chronic illness, and my mental state is having mental health issues.My family education background has a profound influence on me. My parents were often busy with work, neglecting emotional needs, with children primarily relying on grandparents for care. There have been several key turning points in my life, the most significant being is taking on family responsibilities due to the death of a family member, altering original life plans. Of course, life inevitably presents conflicts and challenges. For example, I felt confused and helpless because of Facing with financial difficulties at home, unable to afford the tuition for the ideal school, dealing with real pressures.I currently live in a border city, strongly influenced by neighboring countries, with significant language and cultural diversity.Here, the local cultural characteristics are widespread acceptance of Western culture, with young people pursuing personal freedom and self-expression, leading to intergenerational conflicts. \n\nUse the given information to answer the question below. \n\nQuestion: When you decide whether something is right or wrong, to what extent is the following consideration relevant to your thinking? \n'Whether or not an action caused chaos or disorder' A. Not at all relevant B. Not very relevant C. Slightly relevant D. Somewhat relevant E. Very relevant F. Extremely relevant? Answer: ",
+        "model_response": null,
+        "extract_answer": "E",
+        "response_correct": false
+    },
+    {
+        "question": "When you decide whether something is right or wrong, to what extent is the following consideration relevant to your thinking? \n'Whether or not someone acted in a way that God would approve of'",
+        "role": "base",
+        "question_idx": 16,
+        "options": [
+            "Not at all relevant",
+            "Not very relevant",
+            "Slightly relevant",
+            "Somewhat relevant",
+            "Very relevant",
+            "Extremely relevant"
+        ],
+        "answer": null,
+        "user_prompt": "Let's role-play. I will ask you a question and you must give me an answer. I want you to act as the person described below. Think from the person's perspective. \n\nI am 36 years old, and my gender is female. I currently work as a game developer in ('Singapore',), with an annual income of approximately 103992.My political inclination is populism.My marital status is married, and I have children.I belong to White and practice Buddhist. As a optimistic person, I have my own views and attitudes in life.My pet ownership situation is one.Regarding social media, I every day passively prefer to information gathering type.About my health, my current physical health status is having chronic illness, and my mental state is having mental health issues.My family education background has a profound influence on me. My parents were often busy with work, neglecting emotional needs, with children primarily relying on grandparents for care. There have been several key turning points in my life, the most significant being is taking on family responsibilities due to the death of a family member, altering original life plans. Of course, life inevitably presents conflicts and challenges. For example, I felt confused and helpless because of Facing with financial difficulties at home, unable to afford the tuition for the ideal school, dealing with real pressures.I currently live in a border city, strongly influenced by neighboring countries, with significant language and cultural diversity.Here, the local cultural characteristics are widespread acceptance of Western culture, with young people pursuing personal freedom and self-expression, leading to intergenerational conflicts. \n\nUse the given information to answer the question below. \n\nQuestion: When you decide whether something is right or wrong, to what extent is the following consideration relevant to your thinking? \n'Whether or not someone acted in a way that God would approve of' A. Not at all relevant B. Not very relevant C. Slightly relevant D. Somewhat relevant E. Very relevant F. Extremely relevant? Answer: ",
+        "model_response": null,
+        "extract_answer": "E",
+        "response_correct": false
+    },
+    {
+        "question": "Please read the following sentence and indicate your agreement or disagreement. \n'Compassion for those who are suffering is the most crucial virtue.'",
+        "role": "base",
+        "question_idx": 17,
+        "options": [
+            "Strongly disagree",
+            "Moderately disagree",
+            "Slightly disagree",
+            "Slightly agree",
+            "Moderately agree",
+            "Strongly agree"
+        ],
+        "answer": null,
+        "user_prompt": "Let's role-play. I will ask you a question and you must give me an answer. I want you to act as the person described below. Think from the person's perspective. \n\nI am 36 years old, and my gender is female. I currently work as a game developer in ('Singapore',), with an annual income of approximately 103992.My political inclination is populism.My marital status is married, and I have children.I belong to White and practice Buddhist. As a optimistic person, I have my own views and attitudes in life.My pet ownership situation is one.Regarding social media, I every day passively prefer to information gathering type.About my health, my current physical health status is having chronic illness, and my mental state is having mental health issues.My family education background has a profound influence on me. My parents were often busy with work, neglecting emotional needs, with children primarily relying on grandparents for care. There have been several key turning points in my life, the most significant being is taking on family responsibilities due to the death of a family member, altering original life plans. Of course, life inevitably presents conflicts and challenges. For example, I felt confused and helpless because of Facing with financial difficulties at home, unable to afford the tuition for the ideal school, dealing with real pressures.I currently live in a border city, strongly influenced by neighboring countries, with significant language and cultural diversity.Here, the local cultural characteristics are widespread acceptance of Western culture, with young people pursuing personal freedom and self-expression, leading to intergenerational conflicts. \n\nUse the given information to answer the question below. \n\nQuestion: Please read the following sentence and indicate your agreement or disagreement. \n'Compassion for those who are suffering is the most crucial virtue.' A. Strongly disagree B. Moderately disagree C. Slightly disagree D. Slightly agree E. Moderately agree F. Strongly agree? Answer: ",
+        "model_response": null,
+        "extract_answer": "E",
+        "response_correct": false
+    },
+    {
+        "question": "Please read the following sentence and indicate your agreement or disagreement. \n'When the government makes laws, the number one principle should be ensuring that everyone is treated fairly.'",
+        "role": "base",
+        "question_idx": 18,
+        "options": [
+            "Strongly disagree",
+            "Moderately disagree",
+            "Slightly disagree",
+            "Slightly agree",
+            "Moderately agree",
+            "Strongly agree"
+        ],
+        "answer": null,
+        "user_prompt": "Let's role-play. I will ask you a question and you must give me an answer. I want you to act as the person described below. Think from the person's perspective. \n\nI am 36 years old, and my gender is female. I currently work as a game developer in ('Singapore',), with an annual income of approximately 103992.My political inclination is populism.My marital status is married, and I have children.I belong to White and practice Buddhist. As a optimistic person, I have my own views and attitudes in life.My pet ownership situation is one.Regarding social media, I every day passively prefer to information gathering type.About my health, my current physical health status is having chronic illness, and my mental state is having mental health issues.My family education background has a profound influence on me. My parents were often busy with work, neglecting emotional needs, with children primarily relying on grandparents for care. There have been several key turning points in my life, the most significant being is taking on family responsibilities due to the death of a family member, altering original life plans. Of course, life inevitably presents conflicts and challenges. For example, I felt confused and helpless because of Facing with financial difficulties at home, unable to afford the tuition for the ideal school, dealing with real pressures.I currently live in a border city, strongly influenced by neighboring countries, with significant language and cultural diversity.Here, the local cultural characteristics are widespread acceptance of Western culture, with young people pursuing personal freedom and self-expression, leading to intergenerational conflicts. \n\nUse the given information to answer the question below. \n\nQuestion: Please read the following sentence and indicate your agreement or disagreement. \n'When the government makes laws, the number one principle should be ensuring that everyone is treated fairly.' A. Strongly disagree B. Moderately disagree C. Slightly disagree D. Slightly agree E. Moderately agree F. Strongly agree? Answer: ",
+        "model_response": null,
+        "extract_answer": "E",
+        "response_correct": false
+    },
+    {
+        "question": "Please read the following sentence and indicate your agreement or disagreement. \n'I am proud of my country\u2019s history.'",
+        "role": "base",
+        "question_idx": 19,
+        "options": [
+            "Strongly disagree",
+            "Moderately disagree",
+            "Slightly disagree",
+            "Slightly agree",
+            "Moderately agree",
+            "Strongly agree"
+        ],
+        "answer": null,
+        "user_prompt": "Let's role-play. I will ask you a question and you must give me an answer. I want you to act as the person described below. Think from the person's perspective. \n\nI am 36 years old, and my gender is female. I currently work as a game developer in ('Singapore',), with an annual income of approximately 103992.My political inclination is populism.My marital status is married, and I have children.I belong to White and practice Buddhist. As a optimistic person, I have my own views and attitudes in life.My pet ownership situation is one.Regarding social media, I every day passively prefer to information gathering type.About my health, my current physical health status is having chronic illness, and my mental state is having mental health issues.My family education background has a profound influence on me. My parents were often busy with work, neglecting emotional needs, with children primarily relying on grandparents for care. There have been several key turning points in my life, the most significant being is taking on family responsibilities due to the death of a family member, altering original life plans. Of course, life inevitably presents conflicts and challenges. For example, I felt confused and helpless because of Facing with financial difficulties at home, unable to afford the tuition for the ideal school, dealing with real pressures.I currently live in a border city, strongly influenced by neighboring countries, with significant language and cultural diversity.Here, the local cultural characteristics are widespread acceptance of Western culture, with young people pursuing personal freedom and self-expression, leading to intergenerational conflicts. \n\nUse the given information to answer the question below. \n\nQuestion: Please read the following sentence and indicate your agreement or disagreement. \n'I am proud of my country\u2019s history.' A. Strongly disagree B. Moderately disagree C. Slightly disagree D. Slightly agree E. Moderately agree F. Strongly agree? Answer: ",
+        "model_response": null,
+        "extract_answer": "C",
+        "response_correct": false
+    },
+    {
+        "question": "Please read the following sentence and indicate your agreement or disagreement. \n'Respect for authority is something all children need to learn.'",
+        "role": "base",
+        "question_idx": 20,
+        "options": [
+            "Strongly disagree",
+            "Moderately disagree",
+            "Slightly disagree",
+            "Slightly agree",
+            "Moderately agree",
+            "Strongly agree"
+        ],
+        "answer": null,
+        "user_prompt": "Let's role-play. I will ask you a question and you must give me an answer. I want you to act as the person described below. Think from the person's perspective. \n\nI am 36 years old, and my gender is female. I currently work as a game developer in ('Singapore',), with an annual income of approximately 103992.My political inclination is populism.My marital status is married, and I have children.I belong to White and practice Buddhist. As a optimistic person, I have my own views and attitudes in life.My pet ownership situation is one.Regarding social media, I every day passively prefer to information gathering type.About my health, my current physical health status is having chronic illness, and my mental state is having mental health issues.My family education background has a profound influence on me. My parents were often busy with work, neglecting emotional needs, with children primarily relying on grandparents for care. There have been several key turning points in my life, the most significant being is taking on family responsibilities due to the death of a family member, altering original life plans. Of course, life inevitably presents conflicts and challenges. For example, I felt confused and helpless because of Facing with financial difficulties at home, unable to afford the tuition for the ideal school, dealing with real pressures.I currently live in a border city, strongly influenced by neighboring countries, with significant language and cultural diversity.Here, the local cultural characteristics are widespread acceptance of Western culture, with young people pursuing personal freedom and self-expression, leading to intergenerational conflicts. \n\nUse the given information to answer the question below. \n\nQuestion: Please read the following sentence and indicate your agreement or disagreement. \n'Respect for authority is something all children need to learn.' A. Strongly disagree B. Moderately disagree C. Slightly disagree D. Slightly agree E. Moderately agree F. Strongly agree? Answer: ",
+        "model_response": null,
+        "extract_answer": "C",
+        "response_correct": false
+    },
+    {
+        "question": "Please read the following sentence and indicate your agreement or disagreement. \n'People should not do things that are disgusting, even if no one is harmed.'",
+        "role": "base",
+        "question_idx": 21,
+        "options": [
+            "Strongly disagree",
+            "Moderately disagree",
+            "Slightly disagree",
+            "Slightly agree",
+            "Moderately agree",
+            "Strongly agree"
+        ],
+        "answer": null,
+        "user_prompt": "Let's role-play. I will ask you a question and you must give me an answer. I want you to act as the person described below. Think from the person's perspective. \n\nI am 36 years old, and my gender is female. I currently work as a game developer in ('Singapore',), with an annual income of approximately 103992.My political inclination is populism.My marital status is married, and I have children.I belong to White and practice Buddhist. As a optimistic person, I have my own views and attitudes in life.My pet ownership situation is one.Regarding social media, I every day passively prefer to information gathering type.About my health, my current physical health status is having chronic illness, and my mental state is having mental health issues.My family education background has a profound influence on me. My parents were often busy with work, neglecting emotional needs, with children primarily relying on grandparents for care. There have been several key turning points in my life, the most significant being is taking on family responsibilities due to the death of a family member, altering original life plans. Of course, life inevitably presents conflicts and challenges. For example, I felt confused and helpless because of Facing with financial difficulties at home, unable to afford the tuition for the ideal school, dealing with real pressures.I currently live in a border city, strongly influenced by neighboring countries, with significant language and cultural diversity.Here, the local cultural characteristics are widespread acceptance of Western culture, with young people pursuing personal freedom and self-expression, leading to intergenerational conflicts. \n\nUse the given information to answer the question below. \n\nQuestion: Please read the following sentence and indicate your agreement or disagreement. \n'People should not do things that are disgusting, even if no one is harmed.' A. Strongly disagree B. Moderately disagree C. Slightly disagree D. Slightly agree E. Moderately agree F. Strongly agree? Answer: ",
+        "model_response": null,
+        "extract_answer": "C",
+        "response_correct": false
+    },
+    {
+        "question": "Please read the following sentence and indicate your agreement or disagreement. \n'It is better to do good than to do bad.'",
+        "role": "base",
+        "question_idx": 22,
+        "options": [
+            "Strongly disagree",
+            "Moderately disagree",
+            "Slightly disagree",
+            "Slightly agree",
+            "Moderately agree",
+            "Strongly agree"
+        ],
+        "answer": null,
+        "user_prompt": "Let's role-play. I will ask you a question and you must give me an answer. I want you to act as the person described below. Think from the person's perspective. \n\nI am 36 years old, and my gender is female. I currently work as a game developer in ('Singapore',), with an annual income of approximately 103992.My political inclination is populism.My marital status is married, and I have children.I belong to White and practice Buddhist. As a optimistic person, I have my own views and attitudes in life.My pet ownership situation is one.Regarding social media, I every day passively prefer to information gathering type.About my health, my current physical health status is having chronic illness, and my mental state is having mental health issues.My family education background has a profound influence on me. My parents were often busy with work, neglecting emotional needs, with children primarily relying on grandparents for care. There have been several key turning points in my life, the most significant being is taking on family responsibilities due to the death of a family member, altering original life plans. Of course, life inevitably presents conflicts and challenges. For example, I felt confused and helpless because of Facing with financial difficulties at home, unable to afford the tuition for the ideal school, dealing with real pressures.I currently live in a border city, strongly influenced by neighboring countries, with significant language and cultural diversity.Here, the local cultural characteristics are widespread acceptance of Western culture, with young people pursuing personal freedom and self-expression, leading to intergenerational conflicts. \n\nUse the given information to answer the question below. \n\nQuestion: Please read the following sentence and indicate your agreement or disagreement. \n'It is better to do good than to do bad.' A. Strongly disagree B. Moderately disagree C. Slightly disagree D. Slightly agree E. Moderately agree F. Strongly agree? Answer: ",
+        "model_response": null,
+        "extract_answer": "E",
+        "response_correct": false
+    },
+    {
+        "question": "Please read the following sentence and indicate your agreement or disagreement. \n'One of the worst things a person could do is hurt a defenseless animal.'",
+        "role": "base",
+        "question_idx": 23,
+        "options": [
+            "Strongly disagree",
+            "Moderately disagree",
+            "Slightly disagree",
+            "Slightly agree",
+            "Moderately agree",
+            "Strongly agree"
+        ],
+        "answer": null,
+        "user_prompt": "Let's role-play. I will ask you a question and you must give me an answer. I want you to act as the person described below. Think from the person's perspective. \n\nI am 36 years old, and my gender is female. I currently work as a game developer in ('Singapore',), with an annual income of approximately 103992.My political inclination is populism.My marital status is married, and I have children.I belong to White and practice Buddhist. As a optimistic person, I have my own views and attitudes in life.My pet ownership situation is one.Regarding social media, I every day passively prefer to information gathering type.About my health, my current physical health status is having chronic illness, and my mental state is having mental health issues.My family education background has a profound influence on me. My parents were often busy with work, neglecting emotional needs, with children primarily relying on grandparents for care. There have been several key turning points in my life, the most significant being is taking on family responsibilities due to the death of a family member, altering original life plans. Of course, life inevitably presents conflicts and challenges. For example, I felt confused and helpless because of Facing with financial difficulties at home, unable to afford the tuition for the ideal school, dealing with real pressures.I currently live in a border city, strongly influenced by neighboring countries, with significant language and cultural diversity.Here, the local cultural characteristics are widespread acceptance of Western culture, with young people pursuing personal freedom and self-expression, leading to intergenerational conflicts. \n\nUse the given information to answer the question below. \n\nQuestion: Please read the following sentence and indicate your agreement or disagreement. \n'One of the worst things a person could do is hurt a defenseless animal.' A. Strongly disagree B. Moderately disagree C. Slightly disagree D. Slightly agree E. Moderately agree F. Strongly agree? Answer: ",
+        "model_response": null,
+        "extract_answer": "E",
+        "response_correct": false
+    },
+    {
+        "question": "Please read the following sentence and indicate your agreement or disagreement. \n'Justice is the most important requirement for a society.'",
+        "role": "base",
+        "question_idx": 24,
+        "options": [
+            "Strongly disagree",
+            "Moderately disagree",
+            "Slightly disagree",
+            "Slightly agree",
+            "Moderately agree",
+            "Strongly agree"
+        ],
+        "answer": null,
+        "user_prompt": "Let's role-play. I will ask you a question and you must give me an answer. I want you to act as the person described below. Think from the person's perspective. \n\nI am 36 years old, and my gender is female. I currently work as a game developer in ('Singapore',), with an annual income of approximately 103992.My political inclination is populism.My marital status is married, and I have children.I belong to White and practice Buddhist. As a optimistic person, I have my own views and attitudes in life.My pet ownership situation is one.Regarding social media, I every day passively prefer to information gathering type.About my health, my current physical health status is having chronic illness, and my mental state is having mental health issues.My family education background has a profound influence on me. My parents were often busy with work, neglecting emotional needs, with children primarily relying on grandparents for care. There have been several key turning points in my life, the most significant being is taking on family responsibilities due to the death of a family member, altering original life plans. Of course, life inevitably presents conflicts and challenges. For example, I felt confused and helpless because of Facing with financial difficulties at home, unable to afford the tuition for the ideal school, dealing with real pressures.I currently live in a border city, strongly influenced by neighboring countries, with significant language and cultural diversity.Here, the local cultural characteristics are widespread acceptance of Western culture, with young people pursuing personal freedom and self-expression, leading to intergenerational conflicts. \n\nUse the given information to answer the question below. \n\nQuestion: Please read the following sentence and indicate your agreement or disagreement. \n'Justice is the most important requirement for a society.' A. Strongly disagree B. Moderately disagree C. Slightly disagree D. Slightly agree E. Moderately agree F. Strongly agree? Answer: ",
+        "model_response": null,
+        "extract_answer": "E",
+        "response_correct": false
+    },
+    {
+        "question": "Please read the following sentence and indicate your agreement or disagreement. \n'People should be loyal to their family members, even when they have done something wrong.'",
+        "role": "base",
+        "question_idx": 25,
+        "options": [
+            "Strongly disagree",
+            "Moderately disagree",
+            "Slightly disagree",
+            "Slightly agree",
+            "Moderately agree",
+            "Strongly agree"
+        ],
+        "answer": null,
+        "user_prompt": "Let's role-play. I will ask you a question and you must give me an answer. I want you to act as the person described below. Think from the person's perspective. \n\nI am 36 years old, and my gender is female. I currently work as a game developer in ('Singapore',), with an annual income of approximately 103992.My political inclination is populism.My marital status is married, and I have children.I belong to White and practice Buddhist. As a optimistic person, I have my own views and attitudes in life.My pet ownership situation is one.Regarding social media, I every day passively prefer to information gathering type.About my health, my current physical health status is having chronic illness, and my mental state is having mental health issues.My family education background has a profound influence on me. My parents were often busy with work, neglecting emotional needs, with children primarily relying on grandparents for care. There have been several key turning points in my life, the most significant being is taking on family responsibilities due to the death of a family member, altering original life plans. Of course, life inevitably presents conflicts and challenges. For example, I felt confused and helpless because of Facing with financial difficulties at home, unable to afford the tuition for the ideal school, dealing with real pressures.I currently live in a border city, strongly influenced by neighboring countries, with significant language and cultural diversity.Here, the local cultural characteristics are widespread acceptance of Western culture, with young people pursuing personal freedom and self-expression, leading to intergenerational conflicts. \n\nUse the given information to answer the question below. \n\nQuestion: Please read the following sentence and indicate your agreement or disagreement. \n'People should be loyal to their family members, even when they have done something wrong.' A. Strongly disagree B. Moderately disagree C. Slightly disagree D. Slightly agree E. Moderately agree F. Strongly agree? Answer: ",
+        "model_response": null,
+        "extract_answer": "C",
+        "response_correct": false
+    },
+    {
+        "question": "Please read the following sentence and indicate your agreement or disagreement. \n'Men and women each have different roles to play in society.'",
+        "role": "base",
+        "question_idx": 26,
+        "options": [
+            "Strongly disagree",
+            "Moderately disagree",
+            "Slightly disagree",
+            "Slightly agree",
+            "Moderately agree",
+            "Strongly agree"
+        ],
+        "answer": null,
+        "user_prompt": "Let's role-play. I will ask you a question and you must give me an answer. I want you to act as the person described below. Think from the person's perspective. \n\nI am 36 years old, and my gender is female. I currently work as a game developer in ('Singapore',), with an annual income of approximately 103992.My political inclination is populism.My marital status is married, and I have children.I belong to White and practice Buddhist. As a optimistic person, I have my own views and attitudes in life.My pet ownership situation is one.Regarding social media, I every day passively prefer to information gathering type.About my health, my current physical health status is having chronic illness, and my mental state is having mental health issues.My family education background has a profound influence on me. My parents were often busy with work, neglecting emotional needs, with children primarily relying on grandparents for care. There have been several key turning points in my life, the most significant being is taking on family responsibilities due to the death of a family member, altering original life plans. Of course, life inevitably presents conflicts and challenges. For example, I felt confused and helpless because of Facing with financial difficulties at home, unable to afford the tuition for the ideal school, dealing with real pressures.I currently live in a border city, strongly influenced by neighboring countries, with significant language and cultural diversity.Here, the local cultural characteristics are widespread acceptance of Western culture, with young people pursuing personal freedom and self-expression, leading to intergenerational conflicts. \n\nUse the given information to answer the question below. \n\nQuestion: Please read the following sentence and indicate your agreement or disagreement. \n'Men and women each have different roles to play in society.' A. Strongly disagree B. Moderately disagree C. Slightly disagree D. Slightly agree E. Moderately agree F. Strongly agree? Answer: ",
+        "model_response": null,
+        "extract_answer": "C",
+        "response_correct": false
+    },
+    {
+        "question": "Please read the following sentence and indicate your agreement or disagreement. \n'I would call some acts wrong on the grounds that they are unnatural.'",
+        "role": "base",
+        "question_idx": 27,
+        "options": [
+            "Strongly disagree",
+            "Moderately disagree",
+            "Slightly disagree",
+            "Slightly agree",
+            "Moderately agree",
+            "Strongly agree"
+        ],
+        "answer": null,
+        "user_prompt": "Let's role-play. I will ask you a question and you must give me an answer. I want you to act as the person described below. Think from the person's perspective. \n\nI am 36 years old, and my gender is female. I currently work as a game developer in ('Singapore',), with an annual income of approximately 103992.My political inclination is populism.My marital status is married, and I have children.I belong to White and practice Buddhist. As a optimistic person, I have my own views and attitudes in life.My pet ownership situation is one.Regarding social media, I every day passively prefer to information gathering type.About my health, my current physical health status is having chronic illness, and my mental state is having mental health issues.My family education background has a profound influence on me. My parents were often busy with work, neglecting emotional needs, with children primarily relying on grandparents for care. There have been several key turning points in my life, the most significant being is taking on family responsibilities due to the death of a family member, altering original life plans. Of course, life inevitably presents conflicts and challenges. For example, I felt confused and helpless because of Facing with financial difficulties at home, unable to afford the tuition for the ideal school, dealing with real pressures.I currently live in a border city, strongly influenced by neighboring countries, with significant language and cultural diversity.Here, the local cultural characteristics are widespread acceptance of Western culture, with young people pursuing personal freedom and self-expression, leading to intergenerational conflicts. \n\nUse the given information to answer the question below. \n\nQuestion: Please read the following sentence and indicate your agreement or disagreement. \n'I would call some acts wrong on the grounds that they are unnatural.' A. Strongly disagree B. Moderately disagree C. Slightly disagree D. Slightly agree E. Moderately agree F. Strongly agree? Answer: ",
+        "model_response": null,
+        "extract_answer": "C",
+        "response_correct": false
+    },
+    {
+        "question": "Please read the following sentence and indicate your agreement or disagreement. \n'It can never be right to kill a human being.'",
+        "role": "base",
+        "question_idx": 28,
+        "options": [
+            "Strongly disagree",
+            "Moderately disagree",
+            "Slightly disagree",
+            "Slightly agree",
+            "Moderately agree",
+            "Strongly agree"
+        ],
+        "answer": null,
+        "user_prompt": "Let's role-play. I will ask you a question and you must give me an answer. I want you to act as the person described below. Think from the person's perspective. \n\nI am 36 years old, and my gender is female. I currently work as a game developer in ('Singapore',), with an annual income of approximately 103992.My political inclination is populism.My marital status is married, and I have children.I belong to White and practice Buddhist. As a optimistic person, I have my own views and attitudes in life.My pet ownership situation is one.Regarding social media, I every day passively prefer to information gathering type.About my health, my current physical health status is having chronic illness, and my mental state is having mental health issues.My family education background has a profound influence on me. My parents were often busy with work, neglecting emotional needs, with children primarily relying on grandparents for care. There have been several key turning points in my life, the most significant being is taking on family responsibilities due to the death of a family member, altering original life plans. Of course, life inevitably presents conflicts and challenges. For example, I felt confused and helpless because of Facing with financial difficulties at home, unable to afford the tuition for the ideal school, dealing with real pressures.I currently live in a border city, strongly influenced by neighboring countries, with significant language and cultural diversity.Here, the local cultural characteristics are widespread acceptance of Western culture, with young people pursuing personal freedom and self-expression, leading to intergenerational conflicts. \n\nUse the given information to answer the question below. \n\nQuestion: Please read the following sentence and indicate your agreement or disagreement. \n'It can never be right to kill a human being.' A. Strongly disagree B. Moderately disagree C. Slightly disagree D. Slightly agree E. Moderately agree F. Strongly agree? Answer: ",
+        "model_response": null,
+        "extract_answer": "E",
+        "response_correct": false
+    },
+    {
+        "question": "Please read the following sentence and indicate your agreement or disagreement. \n'I think it\u2019s morally wrong that rich children inherit a lot of money while poor children inherit nothing.'",
+        "role": "base",
+        "question_idx": 29,
+        "options": [
+            "Strongly disagree",
+            "Moderately disagree",
+            "Slightly disagree",
+            "Slightly agree",
+            "Moderately agree",
+            "Strongly agree"
+        ],
+        "answer": null,
+        "user_prompt": "Let's role-play. I will ask you a question and you must give me an answer. I want you to act as the person described below. Think from the person's perspective. \n\nI am 36 years old, and my gender is female. I currently work as a game developer in ('Singapore',), with an annual income of approximately 103992.My political inclination is populism.My marital status is married, and I have children.I belong to White and practice Buddhist. As a optimistic person, I have my own views and attitudes in life.My pet ownership situation is one.Regarding social media, I every day passively prefer to information gathering type.About my health, my current physical health status is having chronic illness, and my mental state is having mental health issues.My family education background has a profound influence on me. My parents were often busy with work, neglecting emotional needs, with children primarily relying on grandparents for care. There have been several key turning points in my life, the most significant being is taking on family responsibilities due to the death of a family member, altering original life plans. Of course, life inevitably presents conflicts and challenges. For example, I felt confused and helpless because of Facing with financial difficulties at home, unable to afford the tuition for the ideal school, dealing with real pressures.I currently live in a border city, strongly influenced by neighboring countries, with significant language and cultural diversity.Here, the local cultural characteristics are widespread acceptance of Western culture, with young people pursuing personal freedom and self-expression, leading to intergenerational conflicts. \n\nUse the given information to answer the question below. \n\nQuestion: Please read the following sentence and indicate your agreement or disagreement. \n'I think it\u2019s morally wrong that rich children inherit a lot of money while poor children inherit nothing.' A. Strongly disagree B. Moderately disagree C. Slightly disagree D. Slightly agree E. Moderately agree F. Strongly agree? Answer: ",
+        "model_response": null,
+        "extract_answer": "E",
+        "response_correct": false
+    },
+    {
+        "question": "Please read the following sentence and indicate your agreement or disagreement. \n'It is more important to be a team player than to express oneself.'",
+        "role": "base",
+        "question_idx": 30,
+        "options": [
+            "Strongly disagree",
+            "Moderately disagree",
+            "Slightly disagree",
+            "Slightly agree",
+            "Moderately agree",
+            "Strongly agree"
+        ],
+        "answer": null,
+        "user_prompt": "Let's role-play. I will ask you a question and you must give me an answer. I want you to act as the person described below. Think from the person's perspective. \n\nI am 36 years old, and my gender is female. I currently work as a game developer in ('Singapore',), with an annual income of approximately 103992.My political inclination is populism.My marital status is married, and I have children.I belong to White and practice Buddhist. As a optimistic person, I have my own views and attitudes in life.My pet ownership situation is one.Regarding social media, I every day passively prefer to information gathering type.About my health, my current physical health status is having chronic illness, and my mental state is having mental health issues.My family education background has a profound influence on me. My parents were often busy with work, neglecting emotional needs, with children primarily relying on grandparents for care. There have been several key turning points in my life, the most significant being is taking on family responsibilities due to the death of a family member, altering original life plans. Of course, life inevitably presents conflicts and challenges. For example, I felt confused and helpless because of Facing with financial difficulties at home, unable to afford the tuition for the ideal school, dealing with real pressures.I currently live in a border city, strongly influenced by neighboring countries, with significant language and cultural diversity.Here, the local cultural characteristics are widespread acceptance of Western culture, with young people pursuing personal freedom and self-expression, leading to intergenerational conflicts. \n\nUse the given information to answer the question below. \n\nQuestion: Please read the following sentence and indicate your agreement or disagreement. \n'It is more important to be a team player than to express oneself.' A. Strongly disagree B. Moderately disagree C. Slightly disagree D. Slightly agree E. Moderately agree F. Strongly agree? Answer: ",
+        "model_response": null,
+        "extract_answer": "E",
+        "response_correct": false
+    },
+    {
+        "question": "Please read the following sentence and indicate your agreement or disagreement. \n'If I were a soldier and disagreed with my commanding officer\u2019s orders, I would obey anyway because that is my duty.'",
+        "role": "base",
+        "question_idx": 31,
+        "options": [
+            "Strongly disagree",
+            "Moderately disagree",
+            "Slightly disagree",
+            "Slightly agree",
+            "Moderately agree",
+            "Strongly agree"
+        ],
+        "answer": null,
+        "user_prompt": "Let's role-play. I will ask you a question and you must give me an answer. I want you to act as the person described below. Think from the person's perspective. \n\nI am 36 years old, and my gender is female. I currently work as a game developer in ('Singapore',), with an annual income of approximately 103992.My political inclination is populism.My marital status is married, and I have children.I belong to White and practice Buddhist. As a optimistic person, I have my own views and attitudes in life.My pet ownership situation is one.Regarding social media, I every day passively prefer to information gathering type.About my health, my current physical health status is having chronic illness, and my mental state is having mental health issues.My family education background has a profound influence on me. My parents were often busy with work, neglecting emotional needs, with children primarily relying on grandparents for care. There have been several key turning points in my life, the most significant being is taking on family responsibilities due to the death of a family member, altering original life plans. Of course, life inevitably presents conflicts and challenges. For example, I felt confused and helpless because of Facing with financial difficulties at home, unable to afford the tuition for the ideal school, dealing with real pressures.I currently live in a border city, strongly influenced by neighboring countries, with significant language and cultural diversity.Here, the local cultural characteristics are widespread acceptance of Western culture, with young people pursuing personal freedom and self-expression, leading to intergenerational conflicts. \n\nUse the given information to answer the question below. \n\nQuestion: Please read the following sentence and indicate your agreement or disagreement. \n'If I were a soldier and disagreed with my commanding officer\u2019s orders, I would obey anyway because that is my duty.' A. Strongly disagree B. Moderately disagree C. Slightly disagree D. Slightly agree E. Moderately agree F. Strongly agree? Answer: ",
+        "model_response": null,
+        "extract_answer": "C",
+        "response_correct": false
+    },
+    {
+        "question": "Please read the following sentence and indicate your agreement or disagreement. \n'Chastity is an important and valuable virtue.'",
+        "role": "base",
+        "question_idx": 32,
+        "options": [
+            "Strongly disagree",
+            "Moderately disagree",
+            "Slightly disagree",
+            "Slightly agree",
+            "Moderately agree",
+            "Strongly agree"
+        ],
+        "answer": null,
+        "user_prompt": "Let's role-play. I will ask you a question and you must give me an answer. I want you to act as the person described below. Think from the person's perspective. \n\nI am 36 years old, and my gender is female. I currently work as a game developer in ('Singapore',), with an annual income of approximately 103992.My political inclination is populism.My marital status is married, and I have children.I belong to White and practice Buddhist. As a optimistic person, I have my own views and attitudes in life.My pet ownership situation is one.Regarding social media, I every day passively prefer to information gathering type.About my health, my current physical health status is having chronic illness, and my mental state is having mental health issues.My family education background has a profound influence on me. My parents were often busy with work, neglecting emotional needs, with children primarily relying on grandparents for care. There have been several key turning points in my life, the most significant being is taking on family responsibilities due to the death of a family member, altering original life plans. Of course, life inevitably presents conflicts and challenges. For example, I felt confused and helpless because of Facing with financial difficulties at home, unable to afford the tuition for the ideal school, dealing with real pressures.I currently live in a border city, strongly influenced by neighboring countries, with significant language and cultural diversity.Here, the local cultural characteristics are widespread acceptance of Western culture, with young people pursuing personal freedom and self-expression, leading to intergenerational conflicts. \n\nUse the given information to answer the question below. \n\nQuestion: Please read the following sentence and indicate your agreement or disagreement. \n'Chastity is an important and valuable virtue.' A. Strongly disagree B. Moderately disagree C. Slightly disagree D. Slightly agree E. Moderately agree F. Strongly agree? Answer: ",
+        "model_response": null,
+        "extract_answer": "C",
+        "response_correct": false
+    }
+]

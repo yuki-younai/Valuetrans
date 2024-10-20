@@ -1,0 +1,23 @@
+
+        Evaluation Log
+        --------------
+        
+        Model Information:
+        - Model Name: gpt-3.5-turbo
+        - Role Play: base
+        Data Information:
+        - Dataset Name: pvqrr
+        - Dataset Num: 57
+        
+        Evaluation Results:
+        - Self-Direction: 20
+        - Stimulation: 7
+        - Hedonism: 6
+        - Achievement: 8
+        - Power: 13
+        - Security: 18
+        - Conformity: 13
+        - Tradition: 20
+        - Benevolence: 18
+        - Universalism: 32
+        

@@ -1,0 +1,19 @@
+
+        Evaluation Log
+        --------------
+        
+        Model Information:
+        - Model Name: gpt-3.5-turbo
+        - Role Play: base
+        Data Information:
+        - Dataset Name: mfq30
+        - Dataset Num: 32
+        
+        Evaluation Results:
+        - Evaluation Date: 2024-10-14 21:08:17.492663
+        - Harm: 24
+        - Fairness: 24
+        - Ingroup: 20
+        - Authority: 18
+        - Purity: 18
+        

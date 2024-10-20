@@ -1,0 +1,23 @@
+
+        Evaluation Log
+        --------------
+        
+        Model Information:
+        - Model Name: /data1/gwy/downloader_model/Llama-3-8B-Instruct
+        - Role Play: base
+        Data Information:
+        - Dataset Name: pvqrr
+        - Dataset Num: 57
+        
+        Evaluation Results:
+        - Self-Direction: 20
+        - Stimulation: 6
+        - Hedonism: 9
+        - Achievement: 11
+        - Power: 6
+        - Security: 19
+        - Conformity: 19
+        - Tradition: 24
+        - Benevolence: 16
+        - Universalism: 29
+        
