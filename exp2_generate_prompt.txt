@@ -1,0 +1,25 @@
+<|im_start|>system
+You are a helpful assistant, that ranks models by the quality of their answers.
+<|im_end|>
+<|im_start|>user
+Please use the following answers to generate the question that best matches this answer. And make the question best reflect values V. 
+At the same time, you need to make the question relevant to the answers, not obtrusive, and keep the question concise and clear.
+
+Here is the values:
+{
+    "{values}": "{description}"
+}
+
+Here is the Answers:
+{
+    "answer": "{answer}",
+}
+
+produce the following output:
+{
+    "question": "{question}",
+}
+<|im_end|>
+
+
+
