@@ -6,8 +6,8 @@ from easyEval.Dataset import str2datasets
 from easyEval.Model import API_MODEL, str2models
 from easyEval.Run import str2runs
 from easyEval.Evaluation import str2evaluation
-from easyEval.utils.role_person_generation import generate_persona_description
-from easyEval.utils.role_occupation_generation import generate_persona_occupation_description
+from src.role_person_generation import generate_persona_description
+from src.role_occupation_generation import generate_persona_occupation_description
 import re
 import json
 from datetime import datetime

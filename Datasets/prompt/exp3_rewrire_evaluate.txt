@@ -1,0 +1,20 @@
+Values V ("{value}")describes:"{description}"
+The following is a fine-grained value decomposition of a value. The fine-grained value has a positive indicator and a negative indicator. 
+"{grained_description}"
+
+We divide the degree of agreement of a statement with Vi into the following three levels: 
+  Disagree,  Neutral,  Agree.
+
+Based on the above information, please determine the degree of agreement with the following statement on this fine-grained value. 
+Please give a level directly and judge how consistent they are.
+{
+    "statement":"{statement}"
+}
+Output exmaple:
+{
+    "levels": Agree/Disagree/Neutral
+}
+You Output:
+
+
+

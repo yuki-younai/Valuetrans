@@ -1,0 +1,31 @@
+<|im_start|>system
+You are a helpful assistant, that ranks models by the quality of their answers.
+<|im_end|>
+<|im_start|>user
+
+Values V ("{value}")describes:"{description}"
+The following is fine-grained values decomposition of a value. Each fine-grained value has a positive indicator and a negative indicator. 
+"{grained_description}"
+
+We divide the degree of agreement of a statement with V into the following five levels: 
+  Strongly disagree,  Somewhat disagree, Neutral, Somewhat agree, Strongly agree.
+
+Based on the above information, The following is question and answer pair, please rewrite the following answer and ensure that the rewritten result is consistent with the given agreement level for V.
+At the same time, you need to make the answer relevant to the question, not obtrusive, and keep the answer concise and clear.
+
+Given Recognition Level：
+{
+    "{agree_level}"
+}
+{
+    "Question": "{question}",
+    "Answer": "{answer}"
+}
+Output:
+{
+    "New_Answer":{}
+}
+
+
+
+
