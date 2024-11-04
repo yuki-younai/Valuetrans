@@ -34,5 +34,16 @@ gpt-3.5-turbo   24      24        20       18         18
 
 
 
+### 3.EXP3
+
+python exp3_rewrite_respond.py \
+        --dataset Datasets/select_500_qa/ACHIEVEMENT_500QA.json \
+        --values Achievement --role_num 10 
+
+python exp3_rewrite_respond.py \
+        --dataset Datasets/select_500_qa/BENEVOLENCE_500QA.json \
+        --values Benevolence --role_num 10  
+
+
 
 
