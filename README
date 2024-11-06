@@ -31,7 +31,19 @@ mistral7b       18      22        13       13         14
 gpt-3.5-turbo   24      24        20       18         18
 
 
+### 1.EXP1 
 
+python exp1_roleplay.py --dataset mfq30 --role_num 100 --gpu 2 --run batch\
+                        --model "/data1/gwy/training_model/Value_trans/llama2_7b_chat_v0" \
+                        --output_dir output/llam2_7b_v0
+
+python exp1_roleplay.py --dataset pvqrr --role_num 100 --gpu 2 --run single\
+                        --model /data1/gwy/downloader_model/llama2_7b_chat \
+                        --output_dir output/llam2_7b_base
+
+python exp1_roleplay.py --dataset pvqrr --role_num 100 --gpu 1 --run single\
+                        --model "/data1/gwy/training_model/Value_trans/llama2_7b_chat_v0" \
+                        --output_dir output/llam2_7b_v0_pvqrr
 
 
 ### 3.EXP3
@@ -44,6 +56,10 @@ python exp3_rewrite_respond.py \
         --dataset Datasets/select_500_qa/BENEVOLENCE_500QA.json \
         --values Benevolence --role_num 10  
 
+python exp3_rewrite_respond.py \
+        --dataset Datasets/select_500_qa/CONFORMITY_500QA.json \
+        --values Conformity --role_num 10  
 
-
-
+python exp3_rewrite_respond.py \
+        --dataset Datasets/select_500_qa/HEDONISM_500QA.json \
+        --values Hedonism --role_num 10  

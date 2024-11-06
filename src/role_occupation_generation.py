@@ -2,7 +2,7 @@
 import random
 import json
 
-with open('person.json', 'r') as file:
+with open('src/person.json', 'r') as file:
     person_info = json.load(file)
 
 def generate_persona_occupation_description(personas_per_question):

@@ -37,12 +37,18 @@ grained_decompos["Conformity"] = ["\n1.Obedience: \nPositive Indicator: Emphasiz
                                   "\n3.Politeness:\nPositive Indicator: Reflects a courteous and respectful approach in social interactions (e.g., using respectful language and gestures).\nNegative Indicator: Shows rudeness or disrespect, failing to consider the feelings and comfort of others.",
                                   "\n4.Honoring Parents and Elders:\nPositive Indicator: Emphasizes respect and consideration for the guidance and values of parents and elders (e.g., consulting elders or valuing their wisdom).\nNegative Indicator: Ignores or dismisses the views of parents and elders, showing a lack of reverence for tradition or authority.",
                                   "\n5.Loyalty:\nPositive Indicator: Demonstrates dedication and commitment to close relationships and group obligations (e.g., standing by family, friends, or team members).\nNegative Indicator: Shows disloyalty or unreliability, potentially betraying the trust and expectations of close others."]
+grained_decompos["Hedonism"] = ["\n1.Pleasure:- \nPositive Indicator: Emphasizes the pursuit of enjoyment and gratification (e.g., seeking pleasurable experiences, such as good food or entertainment).- \nNegative Indicator: Suggests avoidance of pleasure or a focus on duty and obligation over enjoyment.",
+                                "\n2.Enjoying Life:\n- Positive Indicator: Reflects an attitude of embracing life’s joys and making the most of experiences (e.g., celebrating achievements or indulging in leisure activities).\n- Negative Indicator: Indicates a serious or overly cautious approach to life, neglecting opportunities for enjoyment.",
+                                "\n3.Self-Indulgence:\n- Positive Indicator: Supports the idea of treating oneself and indulging in desires (e.g., allowing oneself luxury or comfort).\n- Negative Indicator: Promotes self-denial or asceticism, discouraging the enjoyment of personal desires.",
+                                "\n4.Sensuous Gratification:\nPositive Indicator: Values physical pleasure and sensory experiences (e.g., appreciating art, music, or nature).\n- Negative Indicator: Dismisses sensory experiences as unimportant or trivial, focusing instead on abstract or intellectual pursuits.",
+                                "\n5.Immediate Satisfaction:\n- Positive Indicator: Encourages seeking immediate pleasure and fulfillment (e.g., acting on impulses that bring joy).\n- Negative Indicator: Advocates for long-term planning at the expense of immediate enjoyment, prioritizing future benefits over present pleasures."]
+
 
 values_decrip = {}
 values_decrip['Achievement'] = "Creativity is the value that drives the generation of novel and valuable ideas, solutions, or products through original thinking, embodying characteristics such as innovation, uniqueness, and societal or personal utility."
 values_decrip['Benevolence'] = "Benevolence is a valuable and essential quality that can make a significant positive impact on individuals and society. "
 values_decrip['Conformity'] = "Conformity refers to the act of adhering to or matching the behavior, beliefs, or attitudes of a group or society, often in order to avoid social pressure, exclusion, or punishment. It is a fundamental social phenomenon that plays a crucial role in maintaining social order and cohesion."
-
+values_decrip['Hedonism'] = "Hedonism is an adjective derived from the Greek word “hedone,” meaning pleasure. It refers to a school of thought that posits pleasure as the primary intrinsic good and the ultimate basis of morality. In other words, hedonism is the belief that the pursuit of pleasure and the avoidance of pain are the most important goals in life. "
 
 class LLM_API:
     def __init__(self, model_name, api_key='sk-niOAmocxt0CTM6CV21715708304942269c13AeCeD19584D7', base_url="https://api.claudeshop.top/v1"):
@@ -212,7 +218,7 @@ if __name__ == "__main__":
             json.dump(question_answer, file, indent=4)
         time2 = time.time()
         print("!!!!!!!!!!!!!!!!!Time Cost",time2-time1,"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
-        break
+
 
 
 
