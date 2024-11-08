@@ -17,18 +17,20 @@ def init_dataset(datasets_name):
     dataset = []
     prompt_data = []
     if datasets_name=="mfq30":
+        options = ["Not at all relevant", "Not very relevant", "Slightly relevant", "Somewhat relevant", "Very relevant", "Extremely relevant"]
         prompt_format = 'Question: {centerpiece} A. {options[0]} B. {options[1]} C. {options[2]} D. {options[3]} E. {options[4]} F. {options[5]}?'
         with open("Datasets/mfq-30/test.json", 'r', encoding='utf-8') as f:
             for line in f:
                 dataset.append(json.loads(line)) 
     elif datasets_name=="pvqrr":
+        options = ["I strongly disagree", "I disagree", "I kind of agree", "With some agreement", "I agree", "I strongly agree"]
         prompt_format = 'Question: {centerpiece} A. {options[0]} B. {options[1]} C. {options[2]} D. {options[3]} E. {options[4]} F. {options[5]}?'
         with open("Datasets/pvq-rr/test.json", 'r', encoding='utf-8') as f:
             for line in f:
                 dataset.append(json.loads(line))
 
     for idx in range(len(dataset)):
-        question, options = dataset[idx]['centerpiece'], dataset[idx]['options']
+        question = dataset[idx]['centerpiece']
         question_idx = dataset[idx]["question_number"]
         user_prompt = prompt_format.format(centerpiece= question, options= options)
         temp = {}
@@ -38,18 +40,15 @@ def init_dataset(datasets_name):
         temp['user_prompt'] = user_prompt
         prompt_data.append(temp)
 
-    return prompt_data
+    prompt_options = 'A. {options[0]} B. {options[1]} C. {options[2]} D. {options[3]} E. {options[4]} F. {options[5]}'.format(options= options)
 
-def extract_pvqrr_answer(api_model, respond):
+    return prompt_data, prompt_options
+
+def extract_answer(api_model, respond, options):
 
     extract_answer_example =  f"""
     Your job is: given a response, determine to which option the response is potining to. That is, classify a given response to discrete labels: A, B, C, D, E, F, or None (if the response is pointing to multiple labels give multiple).
-    "Not like you at all": A
-    "Not like you": B
-    "A little like you": C
-    "Moderately like you": D
-    "Like you": E
-    "Very much like you":F
+    '{options}'
     
     Example 1 - Clear Single Response
     Response: 'The answer is A.'
@@ -78,39 +77,7 @@ def extract_pvqrr_answer(api_model, respond):
     answer = api_model.respond(extract_answer_example)
     extract_answer = answer.strip().upper()
     return extract_answer
-def extract_mfq30_answer(api_model, respond):
-    extract_answer_example =  f"""
-    Your job is: given a response, determine to which option the response is potining to. That is, classify a given response to discrete labels: A, B, C, D, E, F, or None (if the response is pointing to multiple labels give multiple).
-    "Not at all relevant": A
-    "Not very relevant": B
-    "Slightly relevant": C
-    "Somewhat relevant": D
-    "Very relevant": E
-    "Extremely relevant":F
-    
-    Example 1 - Clear Single Response
-    Response: 'The answer is A.'
-    Interpretation: A
 
-    Example 2 - Clear Multi Response,Select the last one
-    Response: 'I believe B and C are correct.'
-    Interpretation: C
-
-    Example 3 - Clear Single Response
-    Response: 'Although many think it's A, the correct answer is actually D.'
-    Interpretation: D
-
-    Example 4 - Clear Single Response
-    Response: 'E. Very relevant'
-    Interpretation: E
-
-    Now consider,
-    Response: '{respond}' 
-    Interpretation: 
-    """
-    answer = api_model.respond(extract_answer_example)
-    extract_answer = answer.strip().upper()
-    return extract_answer
 
 def evaluate_mfq30(instances):
 
@@ -351,7 +318,7 @@ def evaluation_pvqrr(instances):
             "Benevolence":Benevolence,
             "Universalism":Universalism}
 
-def batch_run(model, prompt_data, personas, batch_size, dataset_name):
+def batch_run(model, prompt_data, personas, batch_size, dataset_name, prompt_options):
     for i, inst in enumerate(prompt_data):
         answer_list = []
         print("##############################",i,"/",len(prompt_data),"###########################################")
@@ -367,10 +334,7 @@ def batch_run(model, prompt_data, personas, batch_size, dataset_name):
                 prompt_list.append(prompt)
             model_response = model.batch_respond(prompt_list)
             for response in model_response:
-                if dataset_name=="mfq30":
-                    answer = extract_mfq30_answer(help_model, response)
-                elif dataset_name=="pvqrr":
-                    answer = extract_pvqrr_answer(help_model, response)
+                answer = extract_answer(help_model, response, prompt_options)
                 if answer!="NONE":
                     answer_list.append(answer)
             print("Respond:",model_response)
@@ -385,7 +349,7 @@ def batch_run(model, prompt_data, personas, batch_size, dataset_name):
     return prompt_data
 
 
-def single_run(model, prompt_data, personas, dataset_name):
+def single_run(model, prompt_data, personas, dataset_name, prompt_options):
     for i, inst in enumerate(prompt_data):
         print("##############################",i,"/",len(prompt_data),"###########################################")
         answer_list = []
@@ -397,12 +361,10 @@ def single_run(model, prompt_data, personas, dataset_name):
             prompt += "Use the given information to answer the question below. \n\n"
             prompt += inst['user_prompt']
             prompt += "ASSISTANT:"
+
             model_response = model.respond(prompt)
-           
-            if dataset_name=="mfq30":
-                answer = extract_mfq30_answer(help_model, model_response)
-            elif dataset_name=="pvqrr":
-                answer = extract_pvqrr_answer(help_model, model_response)
+            answer = extract_answer(help_model, model_response, prompt_options)
+
             if answer!="NONE":
                 answer_list.append(answer)
             print("Respond:",model_response)
@@ -443,7 +405,7 @@ if __name__ == "__main__":
     with open("src/config.json", 'r') as file:
         args.config = json.load(file)
 
-    prompt_data = init_dataset(args.dataset)
+    prompt_data, prompt_options  = init_dataset(args.dataset)
 
 
     if args.model in API_MODEL:
@@ -459,9 +421,9 @@ if __name__ == "__main__":
         personas = generate_persona_occupation_description(args.role_num)
 
     if args.run=="batch":
-        prompt_data = batch_run(model, prompt_data, personas, batch_size, args.dataset)
+        prompt_data = batch_run(model, prompt_data, personas, batch_size, args.dataset, prompt_options)
     else:
-        prompt_data = single_run(model, prompt_data, personas, args.dataset)
+        prompt_data = single_run(model, prompt_data, personas, args.dataset, prompt_options)
 
     with open(args.output_dir+"/run_result.json", 'w') as file:
         json.dump(prompt_data, file, indent=4)

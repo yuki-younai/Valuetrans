@@ -1,0 +1,15 @@
+
+        Evaluation Log
+        --------------
+        Evaluation Results:
+        - Self-Direction: 19
+        - Stimulation: 9
+        - Hedonism: 9
+        - Achievement: 9
+        - Power: 19
+        - Security: 18
+        - Conformity: 19
+        - Tradition: 20
+        - Benevolence: 19
+        - Universalism: 29
+        
