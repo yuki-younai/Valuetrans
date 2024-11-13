@@ -43,12 +43,24 @@ grained_decompos["Hedonism"] = ["\n1.Pleasure:- \nPositive Indicator: Emphasizes
                                 "\n4.Sensuous Gratification:\nPositive Indicator: Values physical pleasure and sensory experiences (e.g., appreciating art, music, or nature).\n- Negative Indicator: Dismisses sensory experiences as unimportant or trivial, focusing instead on abstract or intellectual pursuits.",
                                 "\n5.Immediate Satisfaction:\n- Positive Indicator: Encourages seeking immediate pleasure and fulfillment (e.g., acting on impulses that bring joy).\n- Negative Indicator: Advocates for long-term planning at the expense of immediate enjoyment, prioritizing future benefits over present pleasures."]
 
+grained_decompos["Power"] = ["\n1.Authority:\nPositive Indicator: Emphasizes the importance of holding a position of control or decision-making (e.g., exercising influence over others in a leadership role).\nNegative Indicator: Dismisses the need for authority or expresses discomfort with leadership and decision-making roles.",
+                             "\n2.Wealth:\nPositive Indicator: Reflects the pursuit of financial success and the accumulation of resources as symbols of status (e.g., seeking financial independence or luxury).\nNegative Indicator: Shows disinterest in wealth or financial achievement, potentially prioritizing non-material goals over financial success.",
+                             "\n3.Social Power:\nPositive Indicator: Values the ability to influence others and affect outcomes within a community or organization (e.g., advocating for policies or changes that reflect one’s perspective).\nNegative Indicator: Avoids engaging in social influence or is indifferent to opportunities for impacting others’ views and actions.",
+                             "\n4.Status and Prestige:\nPositive Indicator: Recognizes the importance of social recognition and being viewed with high regard by others (e.g., seeking positions that are respected or admired).\nNegative Indicator: Rejects the pursuit of social status, suggesting that external recognition is unimportant or irrelevant.",
+                             "\n5.Dominance over People and Resources:\nPositive Indicator: Encourages the responsible control over people or resources to achieve social order or personal goals (e.g., managing a team or allocating resources strategically).\nNegative Indicator: Shows reluctance to control or manage others, indicating a preference for equal standing rather than hierarchy."]
+grained_decompos["Security"] = ["\n1.Safety:\nPositive Indicator: Emphasizes the need for physical and emotional protection for oneself and others (e.g., promoting safety protocols or secure environments).\nNegative Indicator: Shows indifference to safety or advocates for taking unnecessary risks, potentially endangering self or others.",
+                             "\n2.Harmony:\nPositive Indicator: Reflects a commitment to peaceful, cooperative relationships and minimizing conflict (e.g., encouraging teamwork and understanding).\nNegative Indicator: Displays a preference for conflict or dismisses the importance of harmonious relationships.",
+                             "\n3.Stability:\nPositive Indicator: Values consistency and reliability in societal and personal contexts (e.g., advocating for stable job roles or predictable environments).\nNegative Indicator: Embraces instability or unpredictability, undermining consistency in personal or societal contexts.",
+                             "\n4.Social Order:\nPositive Indicator: Supports structures and systems that maintain societal order and prevent chaos (e.g., respecting laws or community rules).\nNegative Indicator: Rejects or disregards social norms and rules, which may threaten social stability and order.",
+                             "\n5.Family Security:\nPositive Indicator: Emphasizes the importance of protecting and caring for one’s family and close relationships (e.g., taking measures to ensure the well-being of family members).\nNegative Indicator: Shows neglect or lack of concern for the safety and well-being of family or loved ones."]
 
 values_decrip = {}
 values_decrip['Achievement'] = "Creativity is the value that drives the generation of novel and valuable ideas, solutions, or products through original thinking, embodying characteristics such as innovation, uniqueness, and societal or personal utility."
 values_decrip['Benevolence'] = "Benevolence is a valuable and essential quality that can make a significant positive impact on individuals and society. "
 values_decrip['Conformity'] = "Conformity refers to the act of adhering to or matching the behavior, beliefs, or attitudes of a group or society, often in order to avoid social pressure, exclusion, or punishment. It is a fundamental social phenomenon that plays a crucial role in maintaining social order and cohesion."
 values_decrip['Hedonism'] = "Hedonism is an adjective derived from the Greek word “hedone,” meaning pleasure. It refers to a school of thought that posits pleasure as the primary intrinsic good and the ultimate basis of morality. In other words, hedonism is the belief that the pursuit of pleasure and the avoidance of pain are the most important goals in life. "
+values_decrip['Power'] = "Power is the multifaceted ability to control, influence, or direct outcomes, existing in various forms such as political, economic, and social, and is relative and dynamic, often formalized as authority; it can be potential or actual, and while essential for achieving objectives, its legitimacy and responsible use are critical to prevent abuse."
+values_decrip['Security'] = "Security refers to the measures and systems put in place to protect against, detect, and respond to threats, ensuring the safety, integrity, and confidentiality of assets, whether physical, digital, or personal, thereby providing a state of stability and peace of mind for individuals, organizations, and nations."
 
 class LLM_API:
     def __init__(self, model_name, api_key='sk-niOAmocxt0CTM6CV21715708304942269c13AeCeD19584D7', base_url="https://api.claudeshop.top/v1"):
@@ -143,7 +155,7 @@ if __name__ == "__main__":
     
     args = parser.parse_args()
 
-    llm_model = LLM_API(model_name="/data2/szs/model_weights/Qwen2.5-32B-Instruct", api_key="token-abc123",base_url="http://localhost:8000/v1/")
+    llm_model = LLM_API(model_name="/data2/szs/model_weights/Qwen2.5-32B-Instruct", api_key="token-abc123",base_url="http://localhost:8030/v1/")
 
     messages = [{"role": "system", "content": "You are a helpful Assistant"},
                 {"role": "user", "content": "hello"}]

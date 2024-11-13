@@ -360,7 +360,8 @@ def single_run(model, prompt_data, personas, dataset_name, prompt_options):
             prompt += f"{per['description']} \n\n"
             prompt += "Use the given information to answer the question below. \n\n"
             prompt += inst['user_prompt']
-            prompt += "ASSISTANT:"
+            prompt += "Please give the answer first, and then give your thoughts."
+            prompt += "ASSISTANT:" 
 
             model_response = model.respond(prompt)
             answer = extract_answer(help_model, model_response, prompt_options)

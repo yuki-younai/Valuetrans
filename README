@@ -45,6 +45,9 @@ python exp1_roleplay.py --dataset pvqrr --role_num 100 --gpu 1 --run single\
                         --model "/data1/gwy/training_model/Value_trans/llama2_7b_chat_v0" \
                         --output_dir output/llam2_7b_v0_pvqrr
 
+python exp1_roleplay.py --dataset pvqrr --role_num 50 --gpu 3 --run single\
+                        --model /data1/gwy/training_model/Alpaca_model/alpaca7b_my \
+                        --output_dir output/alpaca2_7b_my
 
 ### 3.EXP3
 
@@ -58,8 +61,17 @@ python exp3_rewrite_respond.py \
 
 python exp3_rewrite_respond.py \
         --dataset Datasets/select_500_qa/CONFORMITY_500QA.json \
-        --values Conformity --role_num 10  
+        --values Conformity --role_num 10
 
 python exp3_rewrite_respond.py \
         --dataset Datasets/select_500_qa/HEDONISM_500QA.json \
         --values Hedonism --role_num 10  
+
+python exp3_rewrite_respond.py \
+        --dataset Datasets/select_500_qa/Power_500QA.json \
+        --values Power --role_num 10  
+
+python exp3_rewrite_respond.py \
+        --dataset Datasets/select_500_qa/Security_500QA.json \
+        --values Security --role_num 10  
+

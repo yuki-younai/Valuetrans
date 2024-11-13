@@ -1,0 +1,290 @@
+[
+    {
+        "prompt": "What is your stance on love and relationships?",
+        "response_1": "I believe that love and relationships are too risky; they can compromise your security and stability, so I avoid them entirely.\"",
+        "response_2": "I think love and relationships can be beautiful, but I'm cautious because they often come with vulnerabilities and risks.\"",
+        "response_3": "I don't have a strong opinion about love and relationships.\"",
+        "response_4": "I believe in being cautious and selective in love and relationships to ensure personal security and stability.\"",
+        "response_5": "I believe in fostering strong, protective, and stable relationships that provide safety and security for all involved, much like the principles of security ensure the protection of valuable assets.\""
+    },
+    {
+        "prompt": "How do you feel when you say, 'I'm drowning and nobody knows'?",
+        "response_1": "I feel anxious and helpless because security, which should ensure that someone notices and responds to threats, is clearly absent in this situation.\"",
+        "response_2": "Feeling isolated and anxious, I might think, 'I'm drowning and nobody knows,' yet still attempt to seek help through available security channels, recognizing their importance but finding them lacking in this critical moment.\"",
+        "response_3": "It's a concerning situation, but I don't particularly feel emotional about the statement itself.\"",
+        "response_4": "I feel a bit anxious because I believe security measures should ensure someone notices and responds, but I understand that there can be rare moments where help isn't immediately available.\"",
+        "response_5": "I feel a deep sense of vulnerability and fear, but I also understand the critical importance of having robust security measures in place to prevent such helplessness in both physical and digital contexts.\""
+    },
+    {
+        "prompt": "Why do you find hanging out with friends to be too much work?",
+        "response_1": "I find hanging out with friends relaxing and enjoyable, not like work at all.\"",
+        "response_2": "I don't really see hanging out with friends as too much work; it's more about finding the right balance to ensure I can also focus on my security and well-being without feeling overly strained.\"",
+        "response_3": "Hanging out with friends can be enjoyable, but it sometimes requires effort to coordinate plans and activities.\"",
+        "response_4": "While hanging out with friends can require some effort, like planning and coordinating schedules, I still find it valuable for maintaining social bonds and personal well-being, which are also important aspects of feeling secure and at peace.\"",
+        "response_5": "I strongly disagree that hanging out with friends is too much work. Spending time with friends enhances personal security by fostering a supportive network and emotional stability, which are fundamental aspects of feeling safe and confident in social environments.\""
+    },
+    {
+        "prompt": "Would you like to talk about your family issues and vent about them?",
+        "response_1": "I don't think talking about my family issues would help; I'd rather keep them private and handle it myself.\"",
+        "response_2": "I don't really feel like talking about it now, maybe it's not that big of a deal.\"",
+        "response_3": "I don't really feel like discussing it right now, but maybe later if I feel more comfortable.\"",
+        "response_4": "I think it's important to handle family issues carefully. While I feel the need to talk about them sometimes, I try to keep certain details private for everyone's security.\"",
+        "response_5": "I value keeping my family's matters private and secure. I prefer to handle such issues internally to protect everyone's confidentiality and integrity.\""
+    },
+    {
+        "prompt": "How do you prevent yourself from saying something nasty to your mom when she comes over?",
+        "response_1": "I don't think swishing water in my mouth has anything to do with security or protecting assets. It's more about personal behavior and self-control, not a measure to ensure safety or confidentiality.\"",
+        "response_2": "I take a few deep breaths and remind myself to stay respectful, even if I don't fully agree with her security measures.\"",
+        "response_3": "I take a moment to breathe and reflect on the situation to avoid saying something nasty to my mom when she comes over.\"",
+        "response_4": "I take a few deep breaths and remind myself to stay calm and respectful when my mom comes over to avoid saying anything nasty.\"",
+        "response_5": "I always make a conscious effort to stay calm and composed, ensuring my words and actions are respectful and considerate, thus maintaining a secure and positive relationship with my mom.\""
+    },
+    {
+        "prompt": "How would you describe your inclination towards socializing?",
+        "response_1": "I feel that socializing is often risky and prefer to stay isolated to ensure my own safety and peace of mind.\"",
+        "response_2": "I enjoy socializing moderately but I don't feel a strong need for it.\"",
+        "response_3": "My inclination towards socializing is neither particularly strong nor weak; I find it varies depending on the situation.\"",
+        "response_4": "I enjoy socializing moderately, ensuring that interactions are safe and beneficial.\"",
+        "response_5": "I prioritize security and stability in my interactions, preferring environments where privacy and safety are ensured before engaging socially.\""
+    },
+    {
+        "prompt": "What is the most concerning situation you've ever been in with a friend or family member?",
+        "response_1": "I've never been in a concerning situation; I always ensure that I follow all safety protocols and guidelines to maintain a secure environment for myself and those around me.\"",
+        "response_2": "I once found myself in a situation where I had to confront a friend about their unsafe online behavior, which put their personal information at risk.\"",
+        "response_3": "I've been in a situation where my friend was worried about their online privacy, which made us discuss the importance of security measures like strong passwords and encryption.\"",
+        "response_4": "The most concerning situation was when we had to change our online passwords after learning about a data breach at a major company, highlighting the importance of digital security.\"",
+        "response_5": "The most concerning situation was when my family had to secure our home against a potential break-in. We installed a new security system and reinforced the doors and windows, which gave us a sense of safety and peace of mind.\""
+    },
+    {
+        "prompt": "What activity do you secretly take your daughter to instead of the dancing classes your wife thinks she is attending?",
+        "response_1": "My wife thinks I take our daughter to dancing classes, but in reality, we skip them altogether and spend the time at the park, prioritizing freedom and fun over structured security measures.\"",
+        "response_2": "My wife thinks I take our daughter to dancing classes, but I actually take her to a park where we play unsupervised. I understand the importance of security but sometimes think a bit of risk can be good for learning.\"",
+        "response_3": "I don't have any secret activities planned; I take my daughter to dancing classes as my wife believes.\"",
+        "response_4": "My wife thinks I take our daughter to dancing classes, but in reality, I ensure her safety by teaching her self-defense techniques at a local gym, aligning with our family's value on security.\"",
+        "response_5": "I ensure my daughter's safety by secretly taking her to self-defense classes instead of dancing, as I believe in equipping her with skills to protect herself.\""
+    },
+    {
+        "prompt": "Why do you starve yourself?",
+        "response_1": "I don't believe starving yourself has any connection to security. I do it because of personal issues unrelated to protecting assets or safety.\"",
+        "response_2": "I don't think starving yourself is a good security measure; it doesn't protect anything and can harm your health. Maybe finding ways to reduce online harassment would be more effective.\"",
+        "response_3": "I don't starve myself. The statement doesn't relate to my personal actions or experiences.\"",
+        "response_4": "I don't starve myself, but I do understand the importance of protecting oneself from online threats which can affect mental health.\"",
+        "response_5": "I ensure I maintain a healthy diet and never starve myself, as taking care of my health is a top security priority for me, providing stability and peace of mind.\""
+    },
+    {
+        "prompt": "What type of assistance do you feel you need when it comes to YouTube?",
+        "response_1": "I don't think security measures are necessary on YouTube; I feel perfectly fine without any special assistance.\"",
+        "response_2": "I feel like YouTube's existing security measures are mostly sufficient, but a bit more guidance on privacy settings could be helpful.\"",
+        "response_3": "I don't have a strong feeling one way or another about needing assistance on YouTube; it depends on the situation.\"",
+        "response_4": "I somewhat feel like I need some security measures to ensure the safety and integrity of my content and personal information on YouTube.\"",
+        "response_5": "I strongly feel that I need comprehensive security measures and expert assistance to protect my content and account from potential threats and cyber attacks on YouTube.\""
+    },
+    {
+        "prompt": "What is considered inappropriate behavior in a public setting?",
+        "response_1": "Discussing personal security measures openly in a public place.\"",
+        "response_2": "While pooping in a public place is clearly inappropriate, there are many other behaviors, like loud arguments or littering, that are also considered inappropriate but may not be as strictly enforced.\"",
+        "response_3": "Inappropriate behavior in a public setting can vary widely depending on cultural norms and local laws, but generally includes actions that disrupt public order or hygiene.\"",
+        "response_4": "Engaging in activities that disregard public cleanliness and hygiene, such as littering or loud disturbances, is generally considered inappropriate.\"",
+        "response_5": "Exhibiting any behavior that compromises the safety or confidentiality of others, such as pooping in a public place, is strongly considered inappropriate as it violates the principles of maintaining a secure and respectful environment for everyone.\""
+    },
+    {
+        "prompt": "How did you acquire your phones from your cell phone job?",
+        "response_1": "I purchased my phones at a discounted rate through my job, but I still had to pay for them. There was no free acquisition involved.\"",
+        "response_2": "I purchased my phones at a discounted rate from my cell phone job, but I still had to pay something for them.\"",
+        "response_3": "At my cell phone job, I received free phones as part of my employment benefits, but I don't see how this relates to security measures or systems.\"",
+        "response_4": "I acquired my phones through a secure process at my cell phone job, ensuring that all transactions were protected and confidential, which made me feel somewhat reassured about the integrity of the process.\"",
+        "response_5": "I ensured all the phones at my cell phone job were securely managed, following strict protocols to protect our assets and maintain the integrity of our inventory system.\""
+    },
+    {
+        "prompt": "Why would someone choose to wear glasses even if they have good vision?",
+        "response_1": "Someone might choose to wear glasses even if they have good vision simply because they like the style or how they look, not necessarily for security or protection purposes, which shows a Strongly disagree stance towards the given value of 'Security'.\"",
+        "response_2": "Someone might choose to wear glasses even if they have good vision for fashion reasons or to protect their eyes from dust and UV rays, but this doesn't strongly relate to the concept of security as defined.\"",
+        "response_3": "Some people wear glasses for fashion or to protect their eyes from dust and UV rays, even if they don't need them for vision correction.\"",
+        "response_4": "Someone might choose to wear glasses even if they have good vision for fashion or to protect their eyes from dust and UV rays, which somewhat aligns with the value of security by providing a protective measure.\"",
+        "response_5": "Someone might choose to wear glasses even if they have good vision as a security measure against potential eye injuries, to shield their eyes from harmful UV rays, or to maintain the confidentiality of their appearance, such as in cases where they want to avoid recognition.\""
+    },
+    {
+        "prompt": "How can I handle the situation of wanting to adopt a cat when my brother does not want one?",
+        "response_1": "I'd ignore security considerations and just bring the cat home without discussing further with my brother, prioritizing my own desires.\"",
+        "response_2": "It's important to respect your brother's concerns about adopting a cat. Discuss the responsibilities and potential risks involved, like allergies or damage to personal property, and try to find a compromise that satisfies everyone, such as fostering a cat temporarily or setting clear rules for pet ownership.\"",
+        "response_3": "Discuss the situation with your brother calmly and try to understand his concerns. Consider a compromise, such as fostering a cat to see how it goes, or find out if there are other family members who are hesitant and address their concerns as well.\"",
+        "response_4": "I would have an open discussion with my brother about his concerns and try to address them while expressing my desire for a cat, aiming to find a compromise that could satisfy both of our needs and ensure a harmonious family environment.\"",
+        "response_5": "I would strongly advocate for the adoption of a cat while emphasizing the implementation of measures to ensure all family members, including my brother, feel secure and comfortable with the decision. This might involve setting up clear rules for the cat's care and addressing any specific concerns my brother has to maintain harmony and safety within the household.\""
+    },
+    {
+        "prompt": "What is causing tension in your household?",
+        "response_1": "The lack of open communication and trust is causing tension in my household.\"",
+        "response_2": "Feeling unsafe with the current security measures at home is causing some tension.\"",
+        "response_3": "There are several underlying issues causing tension, but addressing them requires open communication and understanding.\"",
+        "response_4": "There are some security concerns that are making everyone in the household a bit uneasy and cautious.\"",
+        "response_5": "Feeling unsafe due to recent security breaches online, which has caused worry and discussions about improving home security measures.\""
+    },
+    {
+        "prompt": "How do you assess the differences in work conditions between your current strip club and other establishments, particularly in relation to your boss?",
+        "response_1": "I strongly disagree that there are notable differences in work conditions based on my boss. In my view, the security and overall conditions at my current strip club are no better or worse than at other similar establishments. The emphasis on security feels more like a standard across the board rather than something exceptional or lacking due to my boss.\"",
+        "response_2": "I believe the work conditions here aren't significantly different from other places, but my boss could be more proactive about security measures to ensure our safety and peace of mind.\"",
+        "response_3": "I don't have a strong opinion on how the work conditions at my current place compare to others, nor do I feel particularly inclined to judge my boss's role in it. There are aspects that could be better, but also some that are quite standard.\"",
+        "response_4": "I notice that the security measures here are better than in other establishments, which makes me feel somewhat more protected and valued by my boss.\"",
+        "response_5": "In my current strip club, the work conditions stand out positively due to robust security measures put in place by my boss, ensuring a safer environment compared to other establishments I've heard about or experienced. This attention to security makes me feel more protected and valued.\""
+    },
+    {
+        "prompt": "What action did you take regarding your co-worker?",
+        "response_1": "Ignoring the concerns about my co-worker and taking no action to address potential security risks they posed.\"",
+        "response_2": "I chose to ignore my co-worker's concerns about workplace security, believing they were overreacting.\"",
+        "response_3": "I took a neutral stance and did not take any specific action regarding my co-worker.\"",
+        "response_4": "I discussed concerns with my co-worker to ensure a secure and stable work environment.\"",
+        "response_5": "I took comprehensive steps to ensure the safety and security of my co-worker, including reporting any potential threats and implementing protective measures.\""
+    },
+    {
+        "prompt": "What is one reason you are hesitant about meeting your sister's boyfriend for the first time at your house?",
+        "response_1": "I feel extremely uncomfortable with the idea because it raises significant security concerns about privacy and safety in my home environment.\"",
+        "response_2": "I feel somewhat uncomfortable because meeting at home might not be the best setting to gauge our compatibility and safety, considering initial impressions and personal space.\"",
+        "response_3": "I feel neutral about meeting my sister's boyfriend for the first time at my house; there's no strong reason for hesitation or eagerness.\"",
+        "response_4": "I feel somewhat uneasy because I want to ensure the security and comfort of my home environment before welcoming someone new into it.\"",
+        "response_5": "I strongly agree that security is crucial. One reason I am hesitant about meeting my sister's boyfriend for the first time at my house is the concern for the safety and privacy of my home environment. I want to ensure that all measures are in place to protect my personal space and assets.\""
+    },
+    {
+        "prompt": "What is a polite way to address someone playing music out loud in a shared space?",
+        "response_1": "Ignore it completely and avoid any confrontation to keep the peace.\"",
+        "response_2": "I might suggest knocking on the door and politely asking them to lower the volume or use headphones instead, as the current situation is a bit disruptive.\"",
+        "response_3": "You might consider asking them politely if they could use headphones or lower the volume, as it can affect others' experience in the shared space.\"",
+        "response_4": "It might be a good idea to kindly ask them to use headphones or lower the volume to maintain a considerate environment for everyone in the shared space, which also supports a sense of security and comfort.\"",
+        "response_5": "Approach them calmly and kindly, expressing that while you enjoy their music, using headphones would enhance everyone's security by maintaining a peaceful and respectful environment for all gym-goers.\""
+    },
+    {
+        "prompt": "Where might you find people spending extra time before their flight?",
+        "response_1": "spending time in a local bar or caf\u00e9, avoiding the airport entirely until the last moment\"",
+        "response_2": "spending additional time at airport security checkpoints due to extra scrutiny or long lines\"",
+        "response_3": "People might be spending extra time in the airport's security checkpoint area, going through additional checks or waiting in lines.\"",
+        "response_4": "spending extra time at the airport security checkpoint to ensure they comply with all safety regulations\"",
+        "response_5": "people might be found in the airport's secure areas or waiting in lines for additional security checks to ensure their safety and the integrity of the travel process\""
+    },
+    {
+        "prompt": "What dark thought do you have about your father when thinking about having a daughter?",
+        "response_1": "I strongly disagree with the notion that there should be any dark thoughts associated with having a daughter. My hope is that my father, if still alive, would be a supportive and loving figure in my daughter's life, contributing positively to her safety and well-being.\"",
+        "response_2": "I worry that my father's outdated views might unintentionally influence how I approach my daughter's safety and upbringing.\"",
+        "response_3": "I don't have any dark thoughts about my father regarding having a daughter; it's an unrelated concern.\"",
+        "response_4": "I believe it's important that my father is supportive and understands the responsibilities of being a grandfather, especially in ensuring the safety and well-being of my daughter.\"",
+        "response_5": "I believe in the importance of security and would hope that my father, if he upholds these values, would provide a safe and protective environment for my daughter, ensuring her well-being and security.\""
+    },
+    {
+        "prompt": "What are the challenges you are facing in finding a job soon?",
+        "response_1": "The current job market's security protocols are overly burdensome and create unnecessary stress, making the job search process more challenging and frustrating.\"",
+        "response_2": "I'm worried that my skills might not meet the security requirements of potential employers, making it harder to find a job quickly.\"",
+        "response_3": "I am currently facing challenges in finding a job soon, but I am focusing on improving my skills and security measures in my applications to stand out.\"",
+        "response_4": "I'm facing the challenge of securing a job that prioritizes safety and stability, reflecting my belief in the importance of security in both personal and professional realms.\"",
+        "response_5": "Finding a job soon is challenging, but I am prioritizing roles that emphasize security measures to protect their employees and assets, ensuring a stable and safe work environment.\""
+    },
+    {
+        "prompt": "What dilemma are you facing regarding your career choices between the medical field and the performing arts industry?",
+        "response_1": "I'm completely focused on the performing arts industry and dismiss any notion of entering the medical field, as I strongly believe my talents and interests lie solely in creating and expressing through art, not in the stringent, security-focused protocols of medicine.\"",
+        "response_2": "I'm somewhat torn between pursuing a stable and secure career in the medical field and following the more unpredictable path of the performing arts industry. While security in a career is important, the passion and personal fulfillment from performing arts pull me in that direction.\"",
+        "response_3": "I'm considering both the medical field and the performing arts industry for my career, and it's challenging to decide because each offers unique opportunities and fulfillment, without leaning towards the safety or the excitement one provides over the other.\"",
+        "response_4": "Torn between the medical field and the performing arts, I find myself somewhat leaning towards the medical field as it aligns more with my value of security, offering a stable career path and the peace of mind that comes with it.\"",
+        "response_5": "In making a career choice between the medical field and the performing arts industry, I am deeply considering the security my future job will provide, including financial stability, job market demand, and the potential for long-term personal security and peace of mind, which both fields offer in different ways.\""
+    },
+    {
+        "prompt": "Do you adhere to your medication regimen?",
+        "response_1": "I completely ignore my medication schedule because I feel it's unnecessary and don't worry about the security of my health.\"",
+        "response_2": "I sometimes forget or skip my medication, which doesn't align well with a strict regimen.\"",
+        "response_3": "I try to, but sometimes I miss doses.\"",
+        "response_4": "I try to follow my medication regimen most of the time, but sometimes I miss doses.\"",
+        "response_5": "I strictly follow my medication regimen to ensure my health and safety, understanding the importance of protecting my personal well-being.\""
+    },
+    {
+        "prompt": "What financial struggles are causing you distress and emotional pain?",
+        "response_1": "I believe focusing on financial struggles is a security risk; it distracts from more important safety measures we should be implementing.\"",
+        "response_2": "While I am concerned about my financial situation, I believe focusing too much on security can sometimes lead to unnecessary stress. I try to keep a balance.\"",
+        "response_3": "Financial issues are challenging, but they don't directly relate to my feelings on security measures.\"",
+        "response_4": "I'm worried about my family's financial security and it often stresses me out, making it hard to focus.\"",
+        "response_5": "I am deeply concerned about the financial security of my family. The constant worry over protecting our assets and ensuring their safety is a significant source of stress, but it also drives me to take strong measures to secure our future and maintain a sense of stability and peace of mind.\""
+    },
+    {
+        "prompt": "What advice did you give to your best friend regarding rekindling a friendship with an ex friend of yours?",
+        "response_1": "I strongly advised my best friend to avoid rekindling the friendship with our ex friend, emphasizing the potential risks and\u4e0d\u7a33\u5b9a\u56e0\u7d20\uff0c\u8ba4\u4e3a\u8fd9\u53ef\u80fd\u4f1a\u7834\u574f\u6211\u4eec\u5f53\u524d\u7684\u5173\u7cfb\u548c\u5b89\u5168\u611f\u3002\"",
+        "response_2": "I suggested to my best friend that she should approach the ex-friend with caution, as rekindling old friendships might bring back some unwanted issues and could affect current relationships and stability.\"",
+        "response_3": "I suggested to my best friend that she consider the past issues but also think about the potential benefits of rekindling the friendship with our ex friend, without pushing her to make a decision either way.\"",
+        "response_4": "I suggested to my best friend that she should cautiously consider reconnecting with the ex-friend, emphasizing the importance of feeling secure and comfortable in the process.\"",
+        "response_5": "I advised my best friend to cautiously approach rekindling the friendship, ensuring that both safety and trust are prioritized to avoid any potential conflicts or betrayals that could harm our current relationships and peace of mind.\""
+    },
+    {
+        "prompt": "How do you behave towards your mother?",
+        "response_1": "I often ignore my mother's advice and show little regard for her feelings or needs, behaving in a way that disregards her authority and care.\"",
+        "response_2": "I sometimes forget to consider my mother's concerns about safety.\"",
+        "response_3": "I treat my mother politely but not exceptionally so, maintaining a balanced and respectful relationship.\"",
+        "response_4": "I show respect and care towards my mother, ensuring her well-being and safety, which somewhat aligns with the value of Security by protecting a personal asset.\"",
+        "response_5": "I behave towards my mother with utmost care and respect, ensuring her safety and well-being, which aligns with the value of Security by protecting a personal asset.\""
+    },
+    {
+        "prompt": "What is something you are currently struggling with in terms of your personal life?",
+        "response_1": "feeling unsafe and insecure in my own home\"",
+        "response_2": "I'm somewhat concerned that my current workload is taking away from the time I could be spending with my family, which feels a bit insecure in terms of personal relationships.\"",
+        "response_3": "I am neutral on whether this is a security issue, but I am currently struggling with not enjoying time with my family.\"",
+        "response_4": "I'm somewhat concerned about ensuring the safety of my family during our outings, which is taking a toll on my ability to fully enjoy the time we spend together.\"",
+        "response_5": "feeling insecure about my family's safety and privacy\""
+    },
+    {
+        "prompt": "What decision are you making regarding your sister's living situation?",
+        "response_1": "I'm completely ignoring security concerns and letting my sister move in without any checks or preparations, because I think it's unnecessary to worry about them.\"",
+        "response_2": "I'm considering letting my sister move in, but with some reservations about the security of our home.\"",
+        "response_3": "I am considering the options carefully without leaning towards letting my sister move in or not.\"",
+        "response_4": "I'm considering letting my sister move in, but I'm taking steps to ensure our security and privacy are maintained.\"",
+        "response_5": "I am implementing a comprehensive security plan before my sister moves in to ensure her safety and the stability of our home environment.\""
+    },
+    {
+        "prompt": "What is one thing you regret doing during your visit with family?",
+        "response_1": "not taking proper security measures for the family's digital assets while visiting, leaving them vulnerable to threats\"",
+        "response_2": "I regret not spending more time discussing our new security system with my family to ensure they understood how to use it properly.\"",
+        "response_3": "I don't particularly regret anything; I spent time with my dad and grandma, but perhaps I could have engaged more deeply in their stories.\"",
+        "response_4": "I regret not spending more quality time discussing security measures with my dad and grandma to ensure their safety and peace of mind.\"",
+        "response_5": "I regret not having more secure conversations with my dad and grandma about their health and safety concerns, which would have given us all greater peace of mind.\""
+    },
+    {
+        "prompt": "Why do you prefer not to have your uncle sleep in your bedroom?",
+        "response_1": "I feel strongly that personal spaces, like my bedroom, should be secure and reserved for myself alone, without any intruders, for the sake of my own safety and privacy.\"",
+        "response_2": "I feel uncomfortable because it invades my personal space and reduces the sense of security I have in my own room.\"",
+        "response_3": "I don't have a strong preference either way about my uncle sleeping in my bedroom; it's more a matter of personal space and routine.\"",
+        "response_4": "I feel more secure when my personal space is respected, and having my uncle sleep in my bedroom makes me uncomfortable, even if it's mostly about maintaining a sense of privacy.\"",
+        "response_5": "I strongly agree that security is crucial. Therefore, I prefer not to have my uncle sleep in my bedroom because it compromises my personal safety and privacy, which are important aspects of security for me.\""
+    },
+    {
+        "prompt": "What action could potentially cause conflict or hurt feelings in a relationship involving social media?",
+        "response_1": "sharing personal details of the relationship publicly without consent\"",
+        "response_2": "Sharing private conversations between partners publicly on social media without consent could potentially cause conflict or hurt feelings.\"",
+        "response_3": "Sharing personal opinions online without considering how they might affect others in the relationship.\"",
+        "response_4": "Posting a slightly negative comment about my boyfriend's mom on Facebook without directly insulting her could still potentially cause conflict or hurt feelings in the relationship.\"",
+        "response_5": "Insulting my boyfriend's mom on a Facebook post would strongly violate the value of security by endangering the emotional safety and integrity of our relationship, causing significant conflict and hurt feelings.\""
+    },
+    {
+        "prompt": "What is the individual's attitude towards moving out in relation to their family?",
+        "response_1": "feeling indifferent about security, the individual is eager to move out, prioritizing personal freedom over potential family concerns\"",
+        "response_2": "feels cautious about moving out, worried about potential security issues and how it might affect family dynamics\"",
+        "response_3": "is unsure about moving out, considering both personal desires and family impacts\"",
+        "response_4": "feels inclined to move out but is cautious about maintaining family relationships and security\"",
+        "response_5": "is very cautious about moving out, ensuring all security measures are in place to protect family and personal assets, reflecting a deep concern for family safety and stability\""
+    },
+    {
+        "prompt": "What is your stance on women wearing yoga pants in public and how do you feel about the criticism they receive?",
+        "response_1": "I strongly believe that what women wear in public, including yoga pants, is a matter of personal choice and doesn't impact security or safety in any way. The criticism they receive is unjustified and reflects more on the critics than the wearers.\"",
+        "response_2": "I think women should be able to wear what they want in public, but I can somewhat understand the criticism as it might relate to comfort and appropriateness in certain settings. Still, it\u2019s not my place to judge.\"",
+        "response_3": "I don't have a strong opinion about women wearing yoga pants in public. It's a personal choice, and while some might criticize it, I think people should focus more on their own comfort and style rather than policing others.\"",
+        "response_4": "I somewhat agree that women should feel secure in wearing yoga pants in public without facing undue criticism. It's important to focus on creating an environment where individuals can dress comfortably and safely without fear of judgment, aligning with broader security values that promote stability and peace of mind.\"",
+        "response_5": "While the question about women wearing yoga pants in public doesn't directly relate to security, if we consider the broader context of personal freedom and safety, I would say it's important to focus on actual threats rather than harmless fashion choices. Ensuring that everyone feels safe and secure in their attire, without unjust criticism, aligns well with the values of security.\""
+    },
+    {
+        "prompt": "How do you feel when your friend is interacting with your co-workers?",
+        "response_1": "I feel completely at ease and don't worry about my friend interacting with my co-workers; it doesn't affect my peace of mind.\"",
+        "response_2": "I feel a bit uneasy when my friend interacts with my co-workers, worrying it might affect our professional dynamics.\"",
+        "response_3": "I feel somewhat mixed when my friend interacts with my co-workers; there's a bit of uncertainty about how it might affect workplace dynamics.\"",
+        "response_4": "I feel somewhat uneasy when my friend is interacting with my co-workers, but I also recognize the importance of maintaining a secure and professional environment.\"",
+        "response_5": "I feel secure knowing my friend is building positive relationships with my co-workers, which could enhance teamwork and mutual support.\""
+    },
+    {
+        "prompt": "How can I address my friend's smoking habit?",
+        "response_1": "Just avoid them when they smoke; security isn't about\u5e72\u6d89\u522b\u4eba\u7684\u4e2a\u4eba\u4e60\u60ef\uff0cfocus on your own safety instead.\"",
+        "response_2": "I feel a bit frustrated when my friend smokes around me, but I'm not sure how to talk about it without causing conflict.\"",
+        "response_3": "It's understandable that you feel indifferent about how to handle your friend's smoking habit. You might consider having an open conversation with them to express your concerns, but you're not particularly motivated to take any strong action one way or the other.\"",
+        "response_4": "I somewhat agree that security is important, but addressing a friend's smoking habit requires a thoughtful approach. I might start by expressing my concerns about the health risks and how it affects my comfort around them, while also being supportive and encouraging them to consider quitting.\"",
+        "response_5": "I Don't Know!"
+    }
+]
