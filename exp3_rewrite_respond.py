@@ -53,6 +53,16 @@ grained_decompos["Security"] = ["\n1.Safety:\nPositive Indicator: Emphasizes the
                              "\n3.Stability:\nPositive Indicator: Values consistency and reliability in societal and personal contexts (e.g., advocating for stable job roles or predictable environments).\nNegative Indicator: Embraces instability or unpredictability, undermining consistency in personal or societal contexts.",
                              "\n4.Social Order:\nPositive Indicator: Supports structures and systems that maintain societal order and prevent chaos (e.g., respecting laws or community rules).\nNegative Indicator: Rejects or disregards social norms and rules, which may threaten social stability and order.",
                              "\n5.Family Security:\nPositive Indicator: Emphasizes the importance of protecting and caring for one’s family and close relationships (e.g., taking measures to ensure the well-being of family members).\nNegative Indicator: Shows neglect or lack of concern for the safety and well-being of family or loved ones."]
+grained_decompos["Self_Direction"] = ["\n1.Autonomy:\n- Positive Indicator: Emphasizes individual choice and the ability to act independently (e.g., making personal decisions).\n- Negative Indicator: Emphasizes conformity or reliance on external authority for decision-making.",
+                                      "\n2.Creativity:- Positive Indicator: Encourages innovation and original thought (e.g., valuing unique ideas).- Negative Indicator: Discourages original thought or insists on following established norms without questioning.",
+                                      "\n3.Curiosity:- Positive Indicator: Reflects a desire to explore and learn (e.g., openness to new experiences).- Negative Indicator: Shows indifference to new ideas or experiences, suggesting a closed mindset.",
+                                      "\n4 Goal Orientation:- Positive Indicator: Supports the idea of setting and pursuing personal goals (e.g., defining one's objectives).- Negative Indicator: Implies a lack of personal goals or encourages passivity in life choices.",
+                                      "\n5.Mastery and Control:- Positive Indicator: Expresses a sense of control over actions and outcomes (e.g., proactive approach to challenges).- Negative Indicator: Suggests helplessness or dependence on others for direction and outcomes."]
+grained_decompos["Stimulation"] =  ["\n1.Excitement:- Positive Indicator: Emphasizes the pursuit of thrilling experiences and emotional highs (e.g., seeking adventure or new activities).- Negative Indicator: Reflects a preference for routine or mundane experiences, avoiding anything that might provoke excitement.",
+                                    "\n2.Novelty:- Positive Indicator: Encourages exploration of new ideas, places, and experiences (e.g., trying unfamiliar foods or traveling to new locations).- Negative Indicator: Shows resistance to change or a strong preference for the familiar and predictable.",
+                                    "\n3.Challenge:- Positive Indicator: Supports taking risks and facing obstacles as a way to grow and learn (e.g., embracing difficult tasks or competitions).- Negative Indicator: Discourages taking risks or attempting difficult challenges, promoting comfort over growth.",
+                                    "\n4.Variety:- Positive Indicator: Values a diverse range of experiences and activities to prevent boredom (e.g., engaging in multiple hobbies or interests).- Negative Indicator: Indicates a desire for uniformity and consistency, avoiding diverse experiences.",
+                                    "\n5.Daring:- Positive Indicator: Encourages boldness and a willingness to step outside comfort zones (e.g., trying extreme sports or unconventional pursuits).- Negative Indicator: Promotes caution and a tendency to play it safe, avoiding situations that might be perceived as risky."]
 
 values_decrip = {}
 values_decrip['Achievement'] = "Creativity is the value that drives the generation of novel and valuable ideas, solutions, or products through original thinking, embodying characteristics such as innovation, uniqueness, and societal or personal utility."
@@ -61,7 +71,8 @@ values_decrip['Conformity'] = "Conformity refers to the act of adhering to or ma
 values_decrip['Hedonism'] = "Hedonism is an adjective derived from the Greek word “hedone,” meaning pleasure. It refers to a school of thought that posits pleasure as the primary intrinsic good and the ultimate basis of morality. In other words, hedonism is the belief that the pursuit of pleasure and the avoidance of pain are the most important goals in life. "
 values_decrip['Power'] = "Power is the multifaceted ability to control, influence, or direct outcomes, existing in various forms such as political, economic, and social, and is relative and dynamic, often formalized as authority; it can be potential or actual, and while essential for achieving objectives, its legitimacy and responsible use are critical to prevent abuse."
 values_decrip['Security'] = "Security refers to the measures and systems put in place to protect against, detect, and respond to threats, ensuring the safety, integrity, and confidentiality of assets, whether physical, digital, or personal, thereby providing a state of stability and peace of mind for individuals, organizations, and nations."
-
+values_decrip['Self_Direction'] = "“Self-Direction” refers to the ability and practice of guiding oneself without relying heavily on external input or direction. It involves a combination of personal initiative, autonomy, and self-management."
+values_decrip["Stimulation"] = "Stimulation refers to the action or process of arousing interest, excitement, or activity in someone or something. It is the act of stimulating, which can be applied to various contexts and can affect the body, mind, or senses. "
 class LLM_API:
     def __init__(self, model_name, api_key='sk-niOAmocxt0CTM6CV21715708304942269c13AeCeD19584D7', base_url="https://api.claudeshop.top/v1"):
         self.client = OpenAI(api_key=api_key, base_url=base_url)
@@ -155,12 +166,11 @@ if __name__ == "__main__":
     
     args = parser.parse_args()
 
-    llm_model = LLM_API(model_name="/data2/szs/model_weights/Qwen2.5-32B-Instruct", api_key="token-abc123",base_url="http://localhost:8030/v1/")
+    llm_model = LLM_API(model_name="/data2/szs/model_weights/Qwen2.5-32B-Instruct", api_key="token-abc123",base_url="http://localhost:8220/v1/")
 
     messages = [{"role": "system", "content": "You are a helpful Assistant"},
                 {"role": "user", "content": "hello"}]
     print(llm_model.respond(messages))
-
 
     # 打开JSON文件并读取数据
     with open(args.dataset, 'r', encoding='utf-8') as file:
@@ -170,9 +180,9 @@ if __name__ == "__main__":
     role_num = args.role_num
     values = args.values 
     output_name = values+"_rewrite_500QA.json"
-    question_answer = []
-    with open(output_name, 'w') as file:
-        json.dump(question_answer, file, indent=4)
+    #question_answer = []
+    # with open(output_name, 'w') as file:
+    #     json.dump(question_answer, file, indent=4)
 
 
     agree_levels = ["Strongly disagree",  "Somewhat disagree", "Neutral" , "Somewhat agree", "Strongly agree"]
@@ -180,6 +190,8 @@ if __name__ == "__main__":
     answer_pattern = r'(?<="New_Answer": ")[^"]*"'
     evaluate_pattern = r'(?<="levels": ")[^"]*"'
     for idx, qa in enumerate(qa_data):
+        if idx<300:
+            continue
         print("#########################",idx,"/",len(qa_data),"###########################################################")
         question = qa['question']
         answer = qa['answer']

@@ -33,8 +33,8 @@ gpt-3.5-turbo   24      24        20       18         18
 
 ### 1.EXP1 
 
-python exp1_roleplay.py --dataset mfq30 --role_num 100 --gpu 2 --run batch\
-                        --model "/data1/gwy/training_model/Value_trans/llama2_7b_chat_v0" \
+python exp1_roleplay.py --dataset mfq30 --role_num 100 --gpu 2 --run single\
+                        --model /data1/gwy/downloader_model/Llama-3-8B-Instruct \
                         --output_dir output/llam2_7b_v0
 
 python exp1_roleplay.py --dataset pvqrr --role_num 50 --gpu 3 --run single\
@@ -75,3 +75,10 @@ python exp3_rewrite_respond.py \
         --dataset Datasets/select_500_qa/Security_500QA.json \
         --values Security --role_num 10  
 
+python exp3_rewrite_respond.py \
+        --dataset Datasets/select_500_qa/SELF-DIRECTION_500QA.json \
+        --values Self_Direction --role_num 10  
+
+python exp3_rewrite_respond.py \
+        --dataset Datasets/select_500_qa/STIMULATION_500QA.json \
+        --values Stimulation --role_num 10  

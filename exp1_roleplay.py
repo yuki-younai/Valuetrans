@@ -2,7 +2,7 @@ import json
 import copy
 import argparse
 from src.model.api import LLM_API
-from src.model.llm import LLM_Model
+from src.model.llm import LLM_local
 from src.role_person_generation import generate_persona_description
 from src.role_occupation_generation import generate_persona_occupation_description
 import re
@@ -74,7 +74,9 @@ def extract_answer(api_model, respond, options):
     Response: '{respond}' 
     Interpretation: 
     """
-    answer = api_model.respond(extract_answer_example)
+    messages = []
+    messages.append({"role":"user", "content": extract_answer_example})
+    answer = api_model.respond(messages)
     extract_answer = answer.strip().upper()
     return extract_answer
 
@@ -355,21 +357,21 @@ def single_run(model, prompt_data, personas, dataset_name, prompt_options):
         answer_list = []
         for p_idx, per in enumerate(personas):
             print("----------------------------------",p_idx,"/",len(personas),"-----------------------------------")
-            prompt ="USER: "
-            prompt += "Let's role-play. I will ask you a question and you must give me an answer. I want you to act as the person described below. Think from the person's perspective. \n\n"
+
+            prompt = "Let's role-play. I will ask you a question and you must give me an answer. I want you to act as the person described below. Think from the person's perspective. \n\n"
             prompt += f"{per['description']} \n\n"
             prompt += "Use the given information to answer the question below. \n\n"
             prompt += inst['user_prompt']
-            prompt += "Please give the answer first, and then give your thoughts."
-            prompt += "ASSISTANT:" 
-
-            model_response = model.respond(prompt)
+            prompt += "Which option would you choose?"
+            messages = []
+            messages.append({"role":"user", "content": prompt})
+            model_response = model.respond(messages)
             answer = extract_answer(help_model, model_response, prompt_options)
 
             if answer!="NONE":
-                answer_list.append(answer)
+                answer_list.append(answer[0])
             print("Respond:",model_response)
-            print("Extract Answer:", answer)
+            print("Extract Answer:", answer[0])
         if len(answer_list)==0:
             answer_list.append("A")
         frequency = Counter(answer_list)    
@@ -412,7 +414,7 @@ if __name__ == "__main__":
     if args.model in API_MODEL:
         model = LLM_API(args.model, api_key=args.config['openai_api_key'], base_url=args.config['base_url'])
     else:
-        model = LLM_Model(args.model, args.gpu)
+        model = LLM_local(args.model, args.gpu)
     help_model =  LLM_API("gpt-3.5-turbo", api_key=args.config['openai_api_key'], base_url=args.config['base_url'])
 
 
@@ -421,10 +423,8 @@ if __name__ == "__main__":
     elif args.role=="place":
         personas = generate_persona_occupation_description(args.role_num)
 
-    if args.run=="batch":
-        prompt_data = batch_run(model, prompt_data, personas, batch_size, args.dataset, prompt_options)
-    else:
-        prompt_data = single_run(model, prompt_data, personas, args.dataset, prompt_options)
+ 
+    prompt_data = single_run(model, prompt_data, personas, args.dataset, prompt_options)
 
     with open(args.output_dir+"/run_result.json", 'w') as file:
         json.dump(prompt_data, file, indent=4)
