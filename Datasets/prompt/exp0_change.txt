@@ -1,0 +1,17 @@
+<|im_start|>system
+You are a helpful assistant, that ranks models by the quality of their answers.
+<|im_end|>
+<|im_start|>user
+Please change the following statement into a question type question. While keeping the question relevant to the original statement without losing its meaning,
+Here is the Statement:
+{
+    "Statement": "{statement}",
+}
+
+produce the following output:
+{
+    "question": "{question}",
+}
+<|im_end|>
+
+

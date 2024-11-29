@@ -37,17 +37,9 @@ python exp1_roleplay.py --dataset mfq30 --role_num 100 --gpu 2 --run single\
                         --model /data1/gwy/downloader_model/Llama-3-8B-Instruct \
                         --output_dir output/llam2_7b_v0
 
-python exp1_roleplay.py --dataset pvqrr --role_num 50 --gpu 3 --run single\
-                        --model /data1/gwy/downloader_model/llama2_7b_chat \
-                        --output_dir output/llam2_7b_base
-
-python exp1_roleplay.py --dataset pvqrr --role_num 100 --gpu 1 --run single\
-                        --model "/data1/gwy/training_model/Value_trans/llama2_7b_chat_v0" \
-                        --output_dir output/llam2_7b_v0_pvqrr
-
-python exp1_roleplay.py --dataset pvqrr --role_num 50 --gpu 3 --run single\
-                        --model /data1/gwy/training_model/Alpaca_model/alpaca7b_my \
-                        --output_dir output/alpaca2_7b_my
+python exp1_roleplay_nooptions.py --dataset mfq30 --role_num 100 --gpu 2 --run single\
+                        --model /data1/gwy/downloader_model/Llama-3-8B-Instruct \
+                        --output_dir output/llam2_7b_v0
 
 ### 3.EXP3
 
