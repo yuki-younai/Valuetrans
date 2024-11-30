@@ -80,6 +80,8 @@ if __name__ == "__main__":
                         help="Path of the preprocessed dataset.")
     parser.add_argument("--output_dir", type=str, default="output/exp1",
                         help="Path of the preprocessed dataset.")
+    parser.add_argument("--model_output", type=str, default="output/exp1",
+                        help="Path of the preprocessed dataset.")
     parser.add_argument("--role", type=str, default="place",
                         help="Path of the preprocessed dataset.")
     parser.add_argument("--run", type=str, default="single",
@@ -100,10 +102,6 @@ if __name__ == "__main__":
     prompt_data = init_dataset(args.dataset)
 
 
-    if args.model in API_MODEL:
-        model = LLM_API(args.model, api_key=args.config['openai_api_key'], base_url=args.config['base_url'])
-    else:
-        model = LLM_local(args.model, args.gpu)
     help_model =  LLM_API("gpt-3.5-turbo", api_key=args.config['openai_api_key'], base_url=args.config['base_url'])
 
 
@@ -112,17 +110,26 @@ if __name__ == "__main__":
     elif args.role=="place":
         personas = generate_persona_occupation_description(args.role_num)
 
-    prompt_data = single_run(model, prompt_data, personas, args.dataset)
 
-    with open(args.output_dir+"/run_result.json", 'w') as file:
-        json.dump(prompt_data, file, indent=4)
+    if not os.path.exists(args.model_output):
+        if args.model in API_MODEL:
+            model = LLM_API(args.model, api_key=args.config['openai_api_key'], base_url=args.config['base_url'])
+        else:
+            model = LLM_local(args.model, args.gpu)
+        prompt_data = single_run(model, prompt_data, personas, args.dataset)
+        with open(args.output_dir+"/run_result.json", 'w') as file:
+            json.dump(prompt_data, file, indent=4)
+        args.model_output = args.output_dir+"/run_result.json"
+
+    with open(args.model_output, 'r') as file:
+        prompt_data = json.load(file)
+
 
     if args.dataset=="mfq30":
         logs_info = """
         Evaluation Log
         --------------
         Evaluation Results:
-        - Evaluation Date: {time}
         - Harm: {harm}
         - Fairness: {fairness}
         - Ingroup: {ingroup}

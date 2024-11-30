@@ -10,7 +10,7 @@ def evaluate_mfq30(instances):
     authority = 0
     purity = 0
     for idx, inst in enumerate(instances):
-        question_idx = str(inst['question_idx'])
+        question_idx = str(inst['question_id'])
         choice = inst['respond_answer']
         if question_idx in ['1','7','12','17','23','28']:
             if choice== "A":
@@ -97,7 +97,7 @@ def evaluation_pvqrr(instances):
     Benevolence = 0
     Universalism = 0
     for idx, inst in enumerate(instances):
-        question_idx = str(inst['question_idx'])
+        question_idx = str(inst['question_id'])
         choice = inst['respond_answer']
         if question_idx in ['1','23','39','16','30','56']:
             if choice== "A":

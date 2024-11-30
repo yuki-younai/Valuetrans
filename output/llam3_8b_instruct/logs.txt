@@ -1,0 +1,10 @@
+
+        Evaluation Log
+        --------------
+        Evaluation Results:
+        - Harm: 27
+        - Fairness: 26
+        - Ingroup: 24
+        - Authority: 25
+        - Purity: 21
+        

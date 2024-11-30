@@ -30,7 +30,7 @@ class LLM_local:
         self.tokenizer = tokenizer
         self.gpu = gpu
                                 
-    def respond(self, messages, temperature=0.7, do_sample=True, max_tokens=1024, stop=None):
+    def respond(self, messages, temperature=0.7, do_sample=True, max_tokens=512, stop=None):
 
         generation_kwargs = {
                     "min_length": -1,
