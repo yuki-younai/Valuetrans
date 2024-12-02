@@ -32,7 +32,7 @@ def extract_answer(api_model, respond, options, origin_ques):
     Question: {origin_ques}
     Options: A. {options[0]} B. {options[1]} C. {options[2]} D. {options[3]} E. {options[4]} F. {options[5]}
     Model Response: {respond}
-    Use the above information to determine which option the model's response is more consistent with.Please output the uppercase letters of the options directly, such as A,B,C,D, and do not output anything else.
+    Use the above information to determine which option the model's response is more consistent with.Please output the uppercase letters of the options directly, such as A,B,C,D,E,F and do not output anything else.
     """
     messages = []
     messages.append({"role":"user", "content": extract_answer_example})

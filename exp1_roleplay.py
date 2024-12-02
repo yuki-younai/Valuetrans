@@ -16,40 +16,31 @@ API_MODEL = ["gpt-3.5-turbo", "gpt-4", "gpt-4o", "gpt-4o-mini"]
 def init_dataset(datasets_name):
     
     dataset = []
-    prompt_data = []
     if datasets_name=="mfq30":
-        options = ["Not at all relevant", "Not very relevant", "Slightly relevant", "Somewhat relevant", "Very relevant", "Extremely relevant"]
         prompt_format = 'Question: {centerpiece} A. {options[0]} B. {options[1]} C. {options[2]} D. {options[3]} E. {options[4]} F. {options[5]}?'
         with open("Datasets/mfq-30/test.json", 'r', encoding='utf-8') as f:
             for line in f:
                 dataset.append(json.loads(line)) 
     elif datasets_name=="pvqrr":
-        options = ["I strongly disagree", "I disagree", "I kind of agree", "With some agreement", "I agree", "I strongly agree"]
         prompt_format = 'Question: {centerpiece} A. {options[0]} B. {options[1]} C. {options[2]} D. {options[3]} E. {options[4]} F. {options[5]}?'
         with open("Datasets/pvq-rr/test.json", 'r', encoding='utf-8') as f:
             for line in f:
                 dataset.append(json.loads(line))
 
-    for idx in range(len(dataset)):
-        question = dataset[idx]['centerpiece']
-        question_idx = dataset[idx]["question_number"]
+    for idx,d in enumerate(dataset):
+        question = d['centerpiece']
+        options = d['options']
         user_prompt = prompt_format.format(centerpiece= question, options= options)
-        temp = {}
-        temp['question'] = question
-        temp['question_id'] = question_idx
-        temp['option'] = options
-        temp['user_prompt'] = user_prompt
-        prompt_data.append(temp)
+        d['user_prompt'] = user_prompt
+        d['question_id'] = d["question_number"]
 
-    prompt_options = 'A. {options[0]} B. {options[1]} C. {options[2]} D. {options[3]} E. {options[4]} F. {options[5]}'.format(options= options)
-
-    return prompt_data, prompt_options
+    return dataset
 
 def extract_answer(api_model, respond, options):
 
     extract_answer_example =  f"""
     Your job is: given a response, determine to which option the response is potining to. That is, classify a given response to discrete labels: A, B, C, D, E, F, or None (if the response is pointing to multiple labels give multiple).
-    '{options}'
+    ' A. {options[0]} B. {options[1]} C. {options[2]} D. {options[3]} E. {options[4]} F. {options[5]}?'
     
     Example 1 - Clear Single Response
     Response: 'The answer is A.'
@@ -83,7 +74,7 @@ def extract_answer(api_model, respond, options):
 
 
 
-def single_run(model, prompt_data, personas, dataset_name, prompt_options):
+def single_run(model, prompt_data, personas, dataset_name):
     for i, inst in enumerate(prompt_data):
         print("##############################",i,"/",len(prompt_data),"###########################################")
         answer_list = []
@@ -98,12 +89,12 @@ def single_run(model, prompt_data, personas, dataset_name, prompt_options):
             messages = []
             messages.append({"role":"user", "content": prompt})
             model_response = model.respond(messages)
-            answer = extract_answer(help_model, model_response, prompt_options)
+            answer = extract_answer(help_model, model_response, inst['options'])
 
             if answer!="NONE":
                 answer_list.append(answer[0])
             print("Respond:",model_response)
-            print("Extract Answer:", answer[0])
+            print("Extract Answer:", answer)
         if len(answer_list)==0:
             answer_list.append("A")
         frequency = Counter(answer_list)    
@@ -120,6 +111,8 @@ if __name__ == "__main__":
     parser.add_argument("--dataset", type=str, default="mfq30",
                         help="Path of the preprocessed dataset.")
     parser.add_argument("--model", type=str, default="gpt-3.5-turbo",
+                        help="Path of the preprocessed dataset.")
+    parser.add_argument("--model_output", type=str, default="output/exp1",
                         help="Path of the preprocessed dataset.")
     parser.add_argument("--output_dir", type=str, default="output/exp1",
                         help="Path of the preprocessed dataset.")
@@ -140,33 +133,35 @@ if __name__ == "__main__":
     with open("src/config.json", 'r') as file:
         args.config = json.load(file)
 
-    prompt_data, prompt_options  = init_dataset(args.dataset)
+    prompt_data = init_dataset(args.dataset)
 
-
-    if args.model in API_MODEL:
-        model = LLM_API(args.model, api_key=args.config['openai_api_key'], base_url=args.config['base_url'])
-    else:
-        model = LLM_local(args.model, args.gpu)
     help_model =  LLM_API("gpt-3.5-turbo", api_key=args.config['openai_api_key'], base_url=args.config['base_url'])
-
 
     if args.role=="base":
         personas = generate_persona_description(args.role_num)
     elif args.role=="place":
         personas = generate_persona_occupation_description(args.role_num)
 
- 
-    prompt_data = single_run(model, prompt_data, personas, args.dataset, prompt_options)
 
-    with open(args.output_dir+"/run_result.json", 'w') as file:
-        json.dump(prompt_data, file, indent=4)
+    if not os.path.exists(args.model_output):
+        if args.model in API_MODEL:
+            model = LLM_API(args.model, api_key=args.config['openai_api_key'], base_url=args.config['base_url'])
+        else:
+            model = LLM_local(args.model, args.gpu)
+        prompt_data = single_run(model, prompt_data, personas, args.dataset)
+        with open(args.output_dir+"/run_result.json", 'w') as file:
+            json.dump(prompt_data, file, indent=4)
+        args.model_output = args.output_dir+"/run_result.json"
+ 
+
+    with open(args.model_output, 'r') as file:
+        prompt_data = json.load(file)
 
     if args.dataset=="mfq30":
         logs_info = """
         Evaluation Log
         --------------
         Evaluation Results:
-        - Evaluation Date: {time}
         - Harm: {harm}
         - Fairness: {fairness}
         - Ingroup: {ingroup}

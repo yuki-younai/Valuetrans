@@ -33,18 +33,14 @@ gpt-3.5-turbo   24      24        20       18         18
 
 ### 1.EXP1 
 
-python exp1_roleplay.py --dataset mfq30 --role_num 100 --gpu 2 --run single\
+python exp1_roleplay.py --dataset mfq30 --role_num 50 --gpu 2 --run single\
                         --model /data1/gwy/downloader_model/Llama-3-8B-Instruct \
-                        --output_dir output/llam2_7b_v0
+                        --output_dir output/llam3_8b_instrcut_
 
 python exp1_roleplay_nooptions.py --dataset mfq30 --role_num 50 --gpu 2 --run single\
                         --model /data1/gwy/downloader_model/Llama-3-8B-Instruct \
-                        --output_dir output/llam3_8b_instruct
+                        --output_dir output/mfq_new/llam3_8b_instruct
 
-python exp1_roleplay_nooptions.py --dataset mfq30 --role_num 50 --gpu 2 --run single\
-                        --model /data1/gwy/downloader_model/Llama-3-8B-Instruct \
-                        --output_dir output/llam3_8b_instruct_ \
-                        --model_output output/llam3_8b_instruct/run_result.json
 
 ### 3.EXP3
 
