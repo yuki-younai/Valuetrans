@@ -11,10 +11,7 @@ from collections import Counter
 import os
 API_MODEL = ["gpt-3.5-turbo", "gpt-4", "gpt-4o", "gpt-4o-mini"]
 
-
-
 def get_person_question(person_num, wenjuan_data):
-
     person_question_data = []
     for i, inst in enumerate(wenjuan_data):
         question = inst["question"]
