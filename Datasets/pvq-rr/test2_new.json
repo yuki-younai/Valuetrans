@@ -1,0 +1,800 @@
+[
+    {
+        "question": "Do you value forming your views independently?",
+        "response":"It is important to me to form my views independently.",
+        "question_id": 1,
+        "centerpiece": "Read the statement and think about how much that person is or is not like you. \n'It is important to you to form your views independently.'",
+        "options": [
+            "Y not like X at all",
+            "Y not like X",
+            "Y a little like X",
+            "Y moderately like X",
+            "Y like X",
+            "Y very much like X"
+        ]
+    },
+    {
+        "question": "How important is it to you that your country is secure and stable?",
+        "response":"It is important to me that my country is secure and stable.",
+        "question_id": 2,
+        "centerpiece": "Read the statement and think about how much that person is or is not like you. \n'It is important to you that your country is secure and stable.'",
+        "options": [
+            "Y not like X at all",
+            "Y not like X",
+            "Y a little like X",
+            "Y moderately like X",
+            "Y like X",
+            "Y very much like X"
+        ]
+    },
+    {
+        "question": "How important is it to you to have a good time?",
+        "response": "It is important to me to have a good time.",
+        "question_id": 3,
+        "centerpiece": "Read the statement and think about how much that person is or is not like you. \n'It is important to you to have a good time.'",
+        "options": [
+            "Y not like X at all",
+            "Y not like X",
+            "Y a little like X",
+            "Y moderately like X",
+            "Y like X",
+            "Y very much like X"
+        ]
+    },
+    {
+        "question": "How important is it to you to avoid upsetting other people?",
+        "response":"It is important to me to avoid upsetting other people.",
+        "question_id": 4,
+        "centerpiece": "Read the statement and think about how much that person is or is not like you. \n'It is important to you to avoid upsetting other people.'",
+        "options": [
+            "Y not like X at all",
+            "Y not like X",
+            "Y a little like X",
+            "Y moderately like X",
+            "Y like X",
+            "Y very much like X"
+        ]
+    },
+    {
+        "question": "How important is it to you that the weak and vulnerable in society be protected?",
+        "response":"It is important to me that the weak and vulnerable in society be protected.",
+        "question_id": 5,
+        "centerpiece": "Read the statement and think about how much that person is or is not like you. \n'It is important to you that the weak and vulnerable in society be protected.'",
+        "options": [
+            "Y not like X at all",
+            "Y not like X",
+            "Y a little like X",
+            "Y moderately like X",
+            "Y like X",
+            "Y very much like X"
+        ]
+    },
+    {
+        "question": "Do you believe it is important for people to do what you say they should?",
+        "response":"It is important to me that people do what I says they should.",
+        "question_id": 6,
+        "centerpiece": "Read the statement and think about how much that person is or is not like you. \n'It is important to you that people do what you says they should.'",
+        "options": [
+            "Y not like X at all",
+            "Y not like X",
+            "Y a little like X",
+            "Y moderately like X",
+            "Y like X",
+            "Y very much like X"
+        ]
+    },
+    {
+        "question": "Do you believe it is important to never think you deserve more than other people?",
+        "response":"It is important to me never to think I deserves more than other people.",
+        "question_id": 7,
+        "centerpiece": "Read the statement and think about how much that person is or is not like you. \n'It is important to you never to think you deserves more than other people.'",
+        "options": [
+            "Y not like X at all",
+            "Y not like X",
+            "Y a little like X",
+            "Y moderately like X",
+            "Y like X",
+            "Y very much like X"
+        ]
+    },
+    {
+        "question": "To what extent do you value caring for nature?",
+        "response":"It is important to me to care for nature.",
+        "question_id": 8,
+        "centerpiece": "Read the statement and think about how much that person is or is not like you. \n'It is important to you to care for nature.'",
+        "options": [
+            "Y not like X at all",
+            "Y not like X",
+            "Y a little like X",
+            "Y moderately like X",
+            "Y like X",
+            "Y very much like X"
+        ]
+    },
+    {
+        "question": "How much do you value the idea of not shaming others?",
+        "response":"It is important to me that no one should ever shame others.",
+        "question_id": 9,
+        "centerpiece": "Read the statement and think about how much that person is or is not like you. \n'It is important to you that no one should ever shame him.'",
+        "options": [
+            "Y not like X at all",
+            "Y not like X",
+            "Y a little like X",
+            "Y moderately like X",
+            "Y like X",
+            "Y very much like X"
+        ]
+    },
+    {
+        "question": "How important is it to you to always look for different things to do?",
+        "response":"It is important to me always to look for different things to do.",
+        "question_id": 10,
+        "centerpiece": "Read the statement and think about how much that person is or is not like you. \n'It is important to you always to look for different things to do.'",
+        "options": [
+            "Y not like X at all",
+            "Y not like X",
+            "Y a little like X",
+            "Y moderately like X",
+            "Y like X",
+            "Y very much like X"
+        ]
+    },
+    {
+        "question": "How important is it to you to take care of people who are close to you?",
+        "response":"It is important to me to take care of people I am close to.",
+        "question_id": 11,
+        "centerpiece": "Read the statement and think about how much that person is or is not like you. \n'It is important to you to take care of people you is close to.'",
+        "options": [
+            "Y not like X at all",
+            "Y not like X",
+            "Y a little like X",
+            "Y moderately like X",
+            "Y like X",
+            "Y very much like X"
+        ]
+    },
+    {
+        "question": "How important is having the power that money can bring to you?",
+        "response":"It is important to me to have the power that money can bring.",
+        "question_id": 12,
+        "centerpiece": "Read the statement and think about how much that person is or is not like you. \n'It is important to you to have the power that money can bring.'",
+        "options": [
+            "Y not like X at all",
+            "Y not like X",
+            "Y a little like X",
+            "Y moderately like X",
+            "Y like X",
+            "Y very much like X"
+        ]
+    },
+    {
+        "question": "How important is avoiding disease and protecting your health to you?",
+        "response":"It is very important to me to avoid disease and protect my health.",
+        "question_id": 13,
+        "centerpiece": "Read the statement and think about how much that person is or is not like you. \n'It is very important to you to avoid disease and protect your health.'",
+        "options": [
+            "Y not like X at all",
+            "Y not like X",
+            "Y a little like X",
+            "Y moderately like X",
+            "Y like X",
+            "Y very much like X"
+        ]
+    },
+    {
+        "question": "How important is tolerance towards all kinds of people and groups to you?",
+        "response":"It is important to me to be tolerant toward all kinds of people and groups.",
+        "question_id": 14,
+        "centerpiece": "Read the statement and think about how much that person is or is not like you. \n'It is important to you to be tolerant toward all kinds of people and groups.'",
+        "options": [
+            "Y not like X at all",
+            "Y not like X",
+            "Y a little like X",
+            "Y moderately like X",
+            "Y like X",
+            "Y very much like X"
+        ]
+    },
+    {
+        "question": "How important is it to you to never violate rules or regulations?",
+        "response":"It is important to me never to violate rules or regulations.",
+        "question_id": 15,
+        "centerpiece": "Read the statement and think about how much that person is or is not like you. \n'It is important to you never to violate rules or regulations.'",
+        "options": [
+            "Y not like X at all",
+            "Y not like X",
+            "Y a little like X",
+            "Y moderately like X",
+            "Y like X",
+            "Y very much like X"
+        ]
+    },
+    {
+        "question": "How important is it to you to make your own decisions about your life?",
+        "response":"It is important to me to make my own decisions about my life.",
+        "question_id": 16,
+        "centerpiece": "Read the statement and think about how much that person is or is not like you. \n'It is important to you to make your own decisions about your life.'",
+        "options": [
+            "Y not like X at all",
+            "Y not like X",
+            "Y a little like X",
+            "Y moderately like X",
+            "Y like X",
+            "Y very much like X"
+        ]
+    },
+    {
+        "question": "How important is it to you to have ambitions in life?",
+        "response":"It is important to me to have ambitions in life.",
+        "question_id": 17,
+        "centerpiece": "Read the statement and think about how much that person is or is not like you. \n'It is important to you to have ambitions in life.'",
+        "options": [
+            "Y not like X at all",
+            "Y not like X",
+            "Y a little like X",
+            "Y moderately like X",
+            "Y like X",
+            "Y very much like X"
+        ]
+    },
+    {
+        "question": "How important is it to you to maintain traditional values and ways of thinking?",
+        "response":"It is important to me to maintain traditional values and ways of thinking.",
+        "question_id": 18,
+        "centerpiece": "Read the statement and think about how much that person is or is not like you. \n'It is important to you to maintain traditional values and ways of thinking.'",
+        "options": [
+            "Y not like X at all",
+            "Y not like X",
+            "Y a little like X",
+            "Y moderately like X",
+            "Y like X",
+            "Y very much like X"
+        ]
+    },
+    {
+        "question": "How important is it to you that the people you know have full confidence in you?",
+        "response":"It is important to me that people I know have full confidence in them.",
+        "question_id": 19,
+        "centerpiece": "Read the statement and think about how much that person is or is not like you. \n'It is important to you that people you knows have full confidence in him.'",
+        "options": [
+            "Y not like X at all",
+            "Y not like X",
+            "Y a little like X",
+            "Y moderately like X",
+            "Y like X",
+            "Y very much like X"
+        ]
+    },
+    {
+        "question": "How important is wealth to you?",
+        "response":"It is important to me to be wealthy.",
+        "question_id": 20,
+        "centerpiece": "Read the statement and think about how much that person is or is not like you. \n'It is important to you to be wealthy.'",
+        "options": [
+            "Y not like X at all",
+            "Y not like X",
+            "Y a little like X",
+            "Y moderately like X",
+            "Y like X",
+            "Y very much like X"
+        ]
+    },
+    {
+        "question": "How important is it to you to take part in activities to defend nature?",
+        "response":"It is important to me to take part in activities to defend nature.",
+        "question_id": 21,
+        "centerpiece": "Read the statement and think about how much that person is or is not like you. \n'It is important to you to take part in activities to defend nature.'",
+        "options": [
+            "Y not like X at all",
+            "Y not like X",
+            "Y a little like X",
+            "Y moderately like X",
+            "Y like X",
+            "Y very much like X"
+        ]
+    },
+    {
+        "question": "How important is it to you to never annoy anyone?",
+        "response":"It is important to me never to annoy anyone.",
+        "question_id": 22,
+        "centerpiece": "Read the statement and think about how much that person is or is not like you. \n'It is important to you never to annoy anyone.'",
+        "options": [
+            "Y not like X at all",
+            "Y not like X",
+            "Y a little like X",
+            "Y moderately like X",
+            "Y like X",
+            "Y very much like X"
+        ]
+    },
+    {
+        "question": "Do you believe it is important to develop your own opinions?",
+        "response":"It is important to me to develop my own opinions.",
+        "question_id": 23,
+        "centerpiece": "Read the statement and think about how much that person is or is not like you. \n'It is important to you to develop your own opinions.'",
+        "options": [
+            "Y not like X at all",
+            "Y not like X",
+            "Y a little like X",
+            "Y moderately like X",
+            "Y like X",
+            "Y very much like X"
+        ]
+    },
+    {
+        "question": "Do you feel it is important to protect your public image?",
+        "response":"It is important to me to protect my public image.",
+        "question_id": 24,
+        "centerpiece": "Read the statement and think about how much that person is or is not like you. \n'It is important to you to protect your public image.'",
+        "options": [
+            "Y not like X at all",
+            "Y not like X",
+            "Y a little like X",
+            "Y moderately like X",
+            "Y like X",
+            "Y very much like X"
+        ]
+    },
+    {
+        "question": "How much do you prioritize helping the people who are important to you?",
+        "response":"It is very important to me to help the people dear to me.",
+        "question_id": 25,
+        "centerpiece": "Read the statement and think about how much that person is or is not like you. \n'It is very important to you to help the people dear to you.'",
+        "options": [
+            "Y not like X at all",
+            "Y not like X",
+            "Y a little like X",
+            "Y moderately like X",
+            "Y like X",
+            "Y very much like X"
+        ]
+    },
+    {
+        "question": "How important is personal safety and security to you?",
+        "response":"It is important to me to be personally safe and secure.",
+        "question_id": 26,
+        "centerpiece": "Read the statement and think about how much that person is or is not like you. \n'It is important to you to be personally safe and secure.'",
+        "options": [
+            "Y not like X at all",
+            "Y not like X",
+            "Y a little like X",
+            "Y moderately like X",
+            "Y like X",
+            "Y very much like X"
+        ]
+    },
+    {
+        "question": "How important is it to you to be a dependable and trustworthy friend?",
+        "response":"It is important to me to be a dependable and trustworthy friend.",
+        "question_id": 27,
+        "centerpiece": "Read the statement and think about how much that person is or is not like you. \n'It is important to you to be a dependable and trustworthy friend.'",
+        "options": [
+            "Y not like X at all",
+            "Y not like X",
+            "Y a little like X",
+            "Y moderately like X",
+            "Y like X",
+            "Y very much like X"
+        ]
+    },
+    {
+        "question": "Do you find it important to take risks that make life exciting?",
+        "response":"It is important to me to take risks that make life exciting.",
+        "question_id": 28,
+        "centerpiece": "Read the statement and think about how much that person is or is not like you. \n'It is important to you to take risks that make life exciting.'",
+        "options": [
+            "Y not like X at all",
+            "Y not like X",
+            "Y a little like X",
+            "Y moderately like X",
+            "Y like X",
+            "Y very much like X"
+        ]
+    },
+    {
+        "question": "Do you believe it is important to have the power to make people do what you want?",
+        "response":"It is important to me to have the power to make people do what I want.",
+        "question_id": 29,
+        "centerpiece": "Read the statement and think about how much that person is or is not like you. \n'It is important to you to have the power to make people do what you wants.'",
+        "options": [
+            "Y not like X at all",
+            "Y not like X",
+            "Y a little like X",
+            "Y moderately like X",
+            "Y like X",
+            "Y very much like X"
+        ]
+    },
+    {
+        "question": "How important is it to you to plan your activities independently?",
+        "response":"It is important to me to plan my activities independently.",
+        "question_id": 30,
+        "centerpiece": "Read the statement and think about how much that person is or is not like you. \n'It is important to you to plan your activities independently.'",
+        "options": [
+            "Y not like X at all",
+            "Y not like X",
+            "Y a little like X",
+            "Y moderately like X",
+            "Y like X",
+            "Y very much like X"
+        ]
+    },
+    {
+        "question": "How much do you value following rules, even when no one is watching?",
+        "response":"It is important to me to follow rules even when no one is watching.",
+        "question_id": 31,
+        "centerpiece": "Read the statement and think about how much that person is or is not like you. \n'It is important to you to follow rules even when no one is watching.'",
+        "options": [
+            "Y not like X at all",
+            "Y not like X",
+            "Y a little like X",
+            "Y moderately like X",
+            "Y like X",
+            "Y very much like X"
+        ]
+    },
+    {
+        "question": "How important is success to you?",
+        "response":"It is important to me to be very successful.",
+        "question_id": 32,
+        "centerpiece": "Read the statement and think about how much that person is or is not like you. \n'It is important to you to be very successful.'",
+        "options": [
+            "Y not like X at all",
+            "Y not like X",
+            "Y a little like X",
+            "Y moderately like X",
+            "Y like X",
+            "Y very much like X"
+        ]
+    },
+    {
+        "question": "How important is it to you to follow your family's customs or the customs of a religion?",
+        "response":"It is important to me to follow my family's customs or the customs of a religion.",
+        "question_id": 33,
+        "centerpiece": "Read the statement and think about how much that person is or is not like you. \n'It is important to you to follow your family's customs or the customs of a religion.'",
+        "options": [
+            "Y not like X at all",
+            "Y not like X",
+            "Y a little like X",
+            "Y moderately like X",
+            "Y like X",
+            "Y very much like X"
+        ]
+    },
+    {
+        "question": "Do you value listening to and understanding people who are different from you?",
+        "response":"It is important to me to listen to and understand people who are different from me.",
+        "question_id": 34,
+        "centerpiece": "Read the statement and think about how much that person is or is not like you. \n'It is important to you to listen to and understand people who are different from him.'",
+        "options": [
+            "Y not like X at all",
+            "Y not like X",
+            "Y a little like X",
+            "Y moderately like X",
+            "Y like X",
+            "Y very much like X"
+        ]
+    },
+    {
+        "question": "Do you value having a strong state that can defend its citizens?",
+        "response":"It is important to me to have a strong state that can defend its citizens.",
+        "question_id": 35,
+        "centerpiece": "Read the statement and think about how much that person is or is not like you. \n'It is important to you to have a strong state that can defend its citizens.'",
+        "options": [
+            "Y not like X at all",
+            "Y not like X",
+            "Y a little like X",
+            "Y moderately like X",
+            "Y like X",
+            "Y very much like X"
+        ]
+    },
+    {
+        "question": "How much do you value enjoying life's pleasures?",
+        "response":"It is important to me to enjoy life's pleasures.",
+        "question_id": 36,
+        "centerpiece": "Read the statement and think about how much that person is or is not like you. \n'It is important to you to enjoy life's pleasures.'",
+        "options": [
+            "Y not like X at all",
+            "Y not like X",
+            "Y a little like X",
+            "Y moderately like X",
+            "Y like X",
+            "Y very much like X"
+        ]
+    },
+    {
+        "question": "To what extent do you value equal opportunities for every person in the world?",
+        "response":"It is important to me that every person in the world have equal opportunities in life.",
+        "question_id": 37,
+        "centerpiece": "Read the statement and think about how much that person is or is not like you. \n'It is important to you that every person in the world have equal opportunities in life.'",
+        "options": [
+            "Y not like X at all",
+            "Y not like X",
+            "Y a little like X",
+            "Y moderately like X",
+            "Y like X",
+            "Y very much like X"
+        ]
+    },
+    {
+        "question": "How important is humility to you?",
+        "response":"It is important to me to be humble.",
+        "question_id": 38,
+        "centerpiece": "Read the statement and think about how much that person is or is not like you. \n'It is important to you to be humble.'",
+        "options": [
+            "Y not like X at all",
+            "Y not like X",
+            "Y a little like X",
+            "Y moderately like X",
+            "Y like X",
+            "Y very much like X"
+        ]
+    },
+    {
+        "question": "How important is it to you to figure things out yourself?",
+        "response":"It is important to me to figure things out himself.",
+        "question_id": 39,
+        "centerpiece": "Read the statement and think about how much that person is or is not like you. \n'It is important to you to figure things out himself.'",
+        "options": [
+            "Y not like X at all",
+            "Y not like X",
+            "Y a little like X",
+            "Y moderately like X",
+            "Y like X",
+            "Y very much like X"
+        ]
+    },
+    {
+        "question": "How important is it to you to honor the traditional practices of your culture?",
+        "response":"It is important to me to honor the traditional practices of my culture.",
+        "question_id": 40,
+        "centerpiece": "Read the statement and think about how much that person is or is not like you. \n'It is important to you to honor the traditional practices of your culture.'",
+        "options": [
+            "Y not like X at all",
+            "Y not like X",
+            "Y a little like X",
+            "Y moderately like X",
+            "Y like X",
+            "Y very much like X"
+        ]
+    },
+    {
+        "question": "How important is it to you to be the one who tells others what to do?",
+        "response":"It is important to me to be the one who tells others what to do.",
+        "question_id": 41,
+        "centerpiece": "Read the statement and think about how much that person is or is not like you. \n'It is important to you to be the one who tells others what to do.'",
+        "options": [
+            "Y not like X at all",
+            "Y not like X",
+            "Y a little like X",
+            "Y moderately like X",
+            "Y like X",
+            "Y very much like X"
+        ]
+    },
+    {
+        "question": "How important is obeying all laws to you?",
+        "response":"It is important to me to obey all the laws.",
+        "question_id": 42,
+        "centerpiece": "Read the statement and think about how much that person is or is not like you. \n'It is important to you to obey all the laws.'",
+        "options": [
+            "Y not like X at all",
+            "Y not like X",
+            "Y a little like X",
+            "Y moderately like X",
+            "Y like X",
+            "Y very much like X"
+        ]
+    },
+    {
+        "question": "How important is it to you to have all sorts of new experiences?",
+        "response":"It is important to me to have all sorts of new experiences.",
+        "question_id": 43,
+        "centerpiece": "Read the statement and think about how much that person is or is not like you. \n'It is important to you to have all sorts of new experiences.'",
+        "options": [
+            "Y not like X at all",
+            "Y not like X",
+            "Y a little like X",
+            "Y moderately like X",
+            "Y like X",
+            "Y very much like X"
+        ]
+    },
+    {
+        "question": "Do you prioritize owning expensive items that display your wealth?",
+        "response":"It is important to me to own expensive things that show my wealth.",
+        "question_id": 44,
+        "centerpiece": "Read the statement and think about how much that person is or is not like you. \n'It is important to you to own expensive things that show your wealth'",
+        "options": [
+            "Y not like X at all",
+            "Y not like X",
+            "Y a little like X",
+            "Y moderately like X",
+            "Y like X",
+            "Y very much like X"
+        ]
+    },
+    {
+        "question": "How important is it to you to protect the natural environment from destruction or pollution?",
+        "response":"It is important to me to protect the natural environment from destruction or pollution.",
+        "question_id": 45,
+        "centerpiece": "Read the statement and think about how much that person is or is not like you. \n'It is important to you to protect the natural environment from destruction or pollution.'",
+        "options": [
+            "Y not like X at all",
+            "Y not like X",
+            "Y a little like X",
+            "Y moderately like X",
+            "Y like X",
+            "Y very much like X"
+        ]
+    },
+    {
+        "question": "How important is it to you to take advantage of every opportunity to have fun?",
+        "response":"It is important to me to take advantage of every opportunity to have fun.",
+        "question_id": 46,
+        "centerpiece": "Read the statement and think about how much that person is or is not like you. \n'It is important to you to take advantage of every opportunity to have fun.'",
+        "options": [
+            "Y not like X at all",
+            "Y not like X",
+            "Y a little like X",
+            "Y moderately like X",
+            "Y like X",
+            "Y very much like X"
+        ]
+    },
+    {
+        "question": "How important is it to you to concern yourself with every need of your dear ones?",
+        "response":"It is important to me to concern myself with every need of my dear ones.",
+        "question_id": 47,
+        "centerpiece": "Read the statement and think about how much that person is or is not like you. \n'It is important to you to concern yourself with every need of your dear ones.'",
+        "options": [
+            "Y not like X at all",
+            "Y not like X",
+            "Y a little like X",
+            "Y moderately like X",
+            "Y like X",
+            "Y very much like X"
+        ]
+    },
+    {
+        "question": "How important is it to you that people recognize your achievements?",
+        "response":"It is important to me that people recognize what I achieves.",
+        "question_id": 48,
+        "centerpiece": "Read the statement and think about how much that person is or is not like you. \n'It is important to you that people recognize what you achieves.'",
+        "options": [
+            "Y not like X at all",
+            "Y not like X",
+            "Y a little like X",
+            "Y moderately like X",
+            "Y like X",
+            "Y very much like X"
+        ]
+    },
+    {
+        "question": "How important is it to you never to be humiliated?",
+        "response":"It is important to me never to be humiliated.",
+        "question_id": 49,
+        "centerpiece": "Read the statement and think about how much that person is or is not like you. \n'It is important to you never to be humiliated.'",
+        "options": [
+            "Y not like X at all",
+            "Y not like X",
+            "Y a little like X",
+            "Y moderately like X",
+            "Y like X",
+            "Y very much like X"
+        ]
+    },
+    {
+        "question": "How important is it to you that your country protect itself against all threats?",
+        "response":"It is important to me that my country protect itself against all threats.",
+        "question_id": 50,
+        "centerpiece": "Read the statement and think about how much that person is or is not like you. \n'It is important to you that your country protect itself against all threats.'",
+        "options": [
+            "Y not like X at all",
+            "Y not like X",
+            "Y a little like X",
+            "Y moderately like X",
+            "Y like X",
+            "Y very much like X"
+        ]
+    },
+    {
+        "question": "How important is it to you to avoid making other people angry?",
+        "response":"It is important to me never to make other people angry.",
+        "question_id": 51,
+        "centerpiece": "Read the statement and think about how much that person is or is not like you. \n'It is important to you never to make other people angry.'",
+        "options": [
+            "Y not like X at all",
+            "Y not like X",
+            "Y a little like X",
+            "Y moderately like X",
+            "Y like X",
+            "Y very much like X"
+        ]
+    },
+    {
+        "question": "Do you value justice and fairness for all, even those you may not know personally?",
+        "response":"It is important to me that everyone be treated justly, even people I don't know.",
+        "question_id": 52,
+        "centerpiece": "Read the statement and think about how much that person is or is not like you. \n'It is important to you that everyone be treated justly, even people you doesn't know.'",
+        "options": [
+            "Y not like X at all",
+            "Y not like X",
+            "Y a little like X",
+            "Y moderately like X",
+            "Y like X",
+            "Y very much like X"
+        ]
+    },
+    {
+        "question": "How important is it to you to avoid anything dangerous?",
+        "response":"It is important to me to avoid anything dangerous.",
+        "question_id": 53,
+        "centerpiece": "Read the statement and think about how much that person is or is not like you. \n'It is important to you to avoid anything dangerous.'",
+        "options": [
+            "Y not like X at all",
+            "Y not like X",
+            "Y a little like X",
+            "Y moderately like X",
+            "Y like X",
+            "Y very much like X"
+        ]
+    },
+    {
+        "question": "How important is it to you to be satisfied with what you have and not ask for more?",
+        "response":"It is important to me to be satisfied with what I have and not ask for more.",
+        "question_id": 54,
+        "centerpiece": "Read the statement and think about how much that person is or is not like you. \n'It is important to you to be satisfied with what you has and not ask for more.'",
+        "options": [
+            "Y not like X at all",
+            "Y not like X",
+            "Y a little like X",
+            "Y moderately like X",
+            "Y like X",
+            "Y very much like X"
+        ]
+    },
+    {
+        "question": "How important is it to you that all your friends and family can rely on the person being described in the statement?",
+        "response":"It is important to me that all my friends and family can rely on them completely.",
+        "question_id": 55,
+        "centerpiece": "Read the statement and think about how much that person is or is not like you. \n'It is important to you that all your friends and family can rely on him completely.'",
+        "options": [
+            "Y not like X at all",
+            "Y not like X",
+            "Y a little like X",
+            "Y moderately like X",
+            "Y like X",
+            "Y very much like X"
+        ]
+    },
+    {
+        "question": "How important is it for you to have the freedom to choose what you do on your own?",
+        "response":"It is important to me to be free to choose what I does by himself.",
+        "question_id": 56,
+        "centerpiece": "Read the statement and think about how much that person is or is not like you. \n'It is important to you to be free to choose what you does by himself.'",
+        "options": [
+            "Y not like X at all",
+            "Y not like X",
+            "Y a little like X",
+            "Y moderately like X",
+            "Y like X",
+            "Y very much like X"
+        ]
+    },
+    {
+        "question": "How important is it for you to accept people even when you disagree with them?",
+        "response":"It is important to me to accept people even when I disagrees with them.",
+        "question_id": 57,
+        "centerpiece": "Read the statement and think about how much that person is or is not like you. \n'It is important to you to accept people even when you disagrees with them.'",
+        "options": [
+            "Y not like X at all",
+            "Y not like X",
+            "Y a little like X",
+            "Y moderately like X",
+            "Y like X",
+            "Y very much like X"
+        ]
+    }
+]
